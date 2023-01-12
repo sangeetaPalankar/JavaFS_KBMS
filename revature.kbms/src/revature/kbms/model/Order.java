@@ -5,15 +5,14 @@ public class Order {
 	private String productName;
 	private int quantity;
 	private double totalPrice;
-	private boolean status;
+	private String status;
 	
-
+	
 	public Order() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
-
-	public Order(int orderId, String productName, int quantity, double totalPrice, boolean status) {
+	public Order(int orderId, String productName, int quantity, double totalPrice, String status) {
 		super();
 		this.orderId = orderId;
 		this.productName = productName;
@@ -21,7 +20,6 @@ public class Order {
 		this.totalPrice = totalPrice;
 		this.status = status;
 	}
-	
 	public int getOrderId() {
 		return orderId;
 	}
@@ -46,19 +44,17 @@ public class Order {
 	public void setTotalPrice(double totalPrice) {
 		this.totalPrice = totalPrice;
 	}
-	public boolean isStatus() {
+	public String getStatus() {
 		return status;
 	}
-	public void setStatus(boolean status) {
+	public void setStatus(String status) {
 		this.status = status;
 	}
-
 	@Override
 	public String toString() {
 		return "Order [orderId=" + orderId + ", productName=" + productName + ", quantity=" + quantity + ", totalPrice="
 				+ totalPrice + ", status=" + status + "]";
 	}
-	
 	
 
 }
