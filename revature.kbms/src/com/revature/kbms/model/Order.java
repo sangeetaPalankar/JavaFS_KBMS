@@ -6,8 +6,8 @@ public class Order {
 	private int quantity;
 	private double totalPrice;
 	private String status;
-	private int productId;
-	private String userId;
+//	private int productId;
+//	private String userId;
 	
 	
 	public Order() {
