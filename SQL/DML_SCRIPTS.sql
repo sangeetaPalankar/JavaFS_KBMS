@@ -1,4 +1,6 @@
 USE KBMS_PROJECT;
+
+/*INSERT QUERIES*/
 INSERT INTO PRODUCT 
 (PRODUCT_ID, PRODUCT_NAME, PRODUCT_COUNT, TOTAL_STOCK, BEST_BEFORE, PRICE_PER_UNIT,TYPE_OF_PRODUCT)
 VALUES
@@ -48,10 +50,27 @@ VALUES
     ("Sonail","sonail@hmail.com", 9897890589, "Street 3, twin tower, Jordan", 
     "1993-12-12", 29, "xxxxxxx", "visa card", "sonail_675");
 
-
 INSERT INTO ORDER_DETAILS
 (ORDER_ID, preferred_login_id, PRODUCT_ID, QUANTITY, TOTAL_PRICE, ORDER_DATE, STATUS, CANCELLATION_DATE, CANCELLATION_REASON)
 VALUES 
-(10001,"sonail_675", 101 , 1, 100.00,'2022-10-23',"Confirmed", null, null),
+(10001,"sonail_675", 101 , 3, 100.00,'2022-10-23',"Confirmed", null, null),
 (10002,"alexa_9090",106 , 2, 200.00 , '2022-10-20',"Confirmed",null,null),
-(10003,"bob@hmail.com",108,1,300.00, '2022-11-23',"Confirmed", null,null);
+(10003,"bob@hmail.com",108,1,300.00, '2022-11-23',"Confirmed", null,null),
+(10004,"loki@hmail.com", 104 , 5, 100.00,'2022-10-23',"Confirmed", null, null),
+(10005,"sonail_675", 103 , 3, 100.00,'2022-10-23',"Confirmed", null, null),
+(10006,"bob@hmail.com", 111 , 4, 500.00,'2022-10-23',"Confirmed", null, null),
+(10007,"polo90@hmail.com", 112 , 3, 600.00,'2022-10-23',"Confirmed", null, null),
+(10008,"sonail_675", 103 , 1, 200.00,'2022-10-23',"Confirmed", null, null),
+(10009,"alexa_9090", 102 , 3, 150.00,'2022-10-23',"Confirmed", null, null);
+
+
+UPDATE order_details SET STATUS ="Cancelled",
+CANCELLATION_ID =102544, 
+CANCELLATION_DATE ='2022-10-04',
+ CANCELLATION_REASON = "HRUGU" 
+WHERE ORDER_ID= 10001;
+
+UPDATE PRODUCT p join order_details o on p.PRODUCT_ID=o.PRODUCT_ID set PRODUCT_COUNT=(p.PRODUCT_COUNT+o.QUANTITY ) where p.PRODUCT_ID=101;
+
+DELETE FROM ORDER_DETAILS;
+DELETE FROM  PRODUCT;

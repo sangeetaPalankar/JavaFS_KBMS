@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Built-By: SANGEETHA
+Build-Jdk: 17.0.5
+Main-Class: com.revature.HelloWorld
+Created-By: Maven Integration for Eclipse
+
