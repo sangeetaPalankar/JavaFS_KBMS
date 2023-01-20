@@ -16,18 +16,20 @@ import com.revature.model.Order;
 import com.revature.util.DateTimeUtil;
 
 public class CancellationDaoImpl implements CancellationDao {
-	private static final Logger logger = Logger.getLogger(CancellationDaoImpl.class);
-	private static Connection con = DatabaseConnection.getConnection();
+	 static  Logger logger = Logger.getLogger(CancellationDaoImpl.class);
+	
+	static Connection con = DatabaseConnection.getConnection();
+	
 	MenuDrivenApplication menu = new MenuDrivenApplication();
 	public static int cancellationId = 10001;
 	Order order = new Order();
 	public static int orderCount =0;
 	public static boolean checkTest= false;
 
-	public void displayOrderlist() {
-		
+	public void displayOrderlist() throws ClassNotFoundException {
+		Connection con = null;
 		try {
-			//Class.forName("com.mysql.jdbc.Driver");
+			Class.forName("com.mysql.cj.jdbc.Driver");
 			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/kbms_project", "root", "sangita123");
 			java.sql.Statement stm = con.createStatement();
 			ResultSet rs = stm.executeQuery(Constants.SELECT_ORDER_QUERY);
@@ -54,10 +56,10 @@ public class CancellationDaoImpl implements CancellationDao {
 				CancellationDao.orderlist.add(order);
 				orderCount++;
 			}
-			logger.info(CancellationDao.orderlist);
+			//logger.info(CancellationDao.orderlist);
 
 		} catch (SQLException e) {
-			logger.info(e.getMessage());
+			//logger.info(e.getMessage());
 		}
 		try {
 			con.close();
@@ -72,7 +74,7 @@ public class CancellationDaoImpl implements CancellationDao {
 
 		Connection con = null;
 		try {
-			Class.forName("com.mysql.jdbc.Driver");
+			Class.forName("com.mysql.cj.jdbc.Driver");
 			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/kbms_project", "root", "sangita123");
 			Statement stm = con.createStatement();
 			String GET_ORDER_DETAILS = "SELECT * FROM ORDER_DETAILS";
@@ -113,7 +115,7 @@ public class CancellationDaoImpl implements CancellationDao {
 	@Override
 	public void cancelOrder(int oId, String reason) {
 		try {
-			Class.forName("com.mysql.jdbc.Driver");
+			Class.forName("com.mysql.cj.jdbc.Driver");
 			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/kbms_project", "root", "sangita123");
 
 			String updateQuery = Constants.UPDATE_STATUS;
@@ -155,7 +157,7 @@ public class CancellationDaoImpl implements CancellationDao {
 	public void displayCancellationDetails(int orderId) {
 		Connection con = null;
 		try {
-			Class.forName("com.mysql.jdbc.Driver");
+			Class.forName("com.mysql.cj.jdbc.Driver");
 			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/kbms_project", "root", "sangita123");
 			java.sql.Statement stm = con.createStatement();
 			String GET_CANCEL_ORDER = "SELECT * FROM ORDER_DETAILS WHERE ORDER_ID=?";

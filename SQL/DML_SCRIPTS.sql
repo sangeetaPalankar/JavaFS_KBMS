@@ -58,7 +58,6 @@ VALUES
 (10003,"bob@hmail.com",108,1,300.00, '2022-11-23',"Confirmed", null,null),
 (10004,"loki@hmail.com", 104 , 5, 100.00,'2022-10-23',"Confirmed", null, null),
 (10005,"sonail_675", 103 , 3, 100.00,'2022-10-23',"Confirmed", null, null),
-(10006,"bob@hmail.com", 111 , 4, 500.00,'2022-10-23',"Confirmed", null, null),
 (10007,"polo90@hmail.com", 112 , 3, 600.00,'2022-10-23',"Confirmed", null, null),
 (10008,"sonail_675", 103 , 1, 200.00,'2022-10-23',"Confirmed", null, null),
 (10009,"alexa_", 102 , 3, 150.00,'2022-10-23',"Confirmed", null, null);
@@ -72,6 +71,7 @@ WHERE ORDER_ID= 10001;
 
 UPDATE PRODUCT p join order_details o on p.PRODUCT_ID=o.PRODUCT_ID set PRODUCT_COUNT=(p.PRODUCT_COUNT+o.QUANTITY ) where p.PRODUCT_ID=101;
 
-DELETE FROM ORDER_DETAILS;
+DELETE FROM ORDER_DETAILS where order_id = 10009;
 DELETE FROM  PRODUCT;
 DELETE FROM CUSTOMER;
+DELETE FROM ORDER_DETAILS;

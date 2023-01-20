@@ -24,13 +24,14 @@ public class MenuDrivenApplication {
 	
 	static Scanner in = new Scanner(System.in);
 	
-	public static void main(String[] args) throws SQLException {	
+	public static void main(String[] args) throws SQLException, ClassNotFoundException {	
 		showMenu();
 	}
 	
-	public static void showMenu() throws SQLException {
+	public static void showMenu() throws SQLException, ClassNotFoundException {
 		logger.info(Constants.WELCOME_MESSAGE);
-		logger.info("=======================================");
+		logger.info("================================================");
+		logger.info("\n");		
 		logger.info(Constants.SIGN_IN);
 		logger.info(Constants.EXIT);
 
@@ -56,7 +57,7 @@ public class MenuDrivenApplication {
 	
 	
 	
-	public static void login() throws SQLException {
+	public static void login() throws SQLException, ClassNotFoundException {
 
 		try(Connection connection = DatabaseConnection.getConnection();){
 				Statement statement = connection.createStatement();
@@ -83,7 +84,7 @@ public class MenuDrivenApplication {
 
 				// Display values
 				logger.info("\n");
-				logger.info("-------------Welcome, " + customerName + "!----------------");
+				logger.info("------------ Welcome, " + customerName + "!----------------");
 				cancelOrders();
 			} else {
 				Scanner scan = new Scanner(System.in);
@@ -96,24 +97,30 @@ public class MenuDrivenApplication {
 	}
 	
 	
-	public static void cancelOrders() throws SQLException {
+	public static void cancelOrders() throws SQLException, ClassNotFoundException {
 		CancellationDaoImpl impl = new CancellationDaoImpl();
 		CancellationDaoImpl olist = new CancellationDaoImpl();
 		Order order = new Order();
 		CancellationDaoImpl c = new CancellationDaoImpl();
 		char ch;
+		logger.info("=================================================");
+		logger.info("\n \t \t  PLACED ORDERS: \n");
+		impl.displayOrderlist();
+		logger.info("==================================================================================================");
+		
 		do {
-			logger.info("=================================================");
-			logger.info("\n \t \t \t \t \t \t \t\t\t\t\t YOUR PLACED ORDERS: \n");
+			/*logger.info("=================================================");
+			logger.info("\n \t \t  PLACED ORDERS: \n");
 			impl.displayOrderlist();
-			logger.info("=================================================");
+			logger.info("==================================================================================================");*/
 			logger.info("Do you want to Cancel any order? \nPress y or n?");
 			ch = in.next().charAt(0);
 			in.nextLine();
 			if(ch =='y')
 			{
-				logger.info("Enter the Details to Cancel: ");
 				logger.info("\n");
+				logger.info("Enter the Details to Cancel: ");
+	
 				logger.info("Order ID: ");
 				int oId = in.nextInt();
 				in.nextLine();
@@ -123,30 +130,41 @@ public class MenuDrivenApplication {
 				logger.info("Reason: ");
 				String reason = in.next();
 				in.nextLine();
-	
-				logger.info("Are you sure to cancel order "+oId+" ?\n y or n");
+				
+				logger.info("\n");
+				logger.info("Are you sure to cancel order "+oId+" ?\n Press y or n?");
 				char ch2 = in.next().charAt(0);
 				in.nextLine();
 		
 				if (ch2 == 'y') {
 					c.cancelOrder(oId, reason);
-					logger.info("Order Cancelled sucessfully..");
+					logger.info("***** Order Cancelled sucessfully ******");
 					logger.info("\n");
 					
-							
-					logger.info("View Cancellation details? \n y or n");
+					logger.info("===========================================");
+					logger.info("View Cancellation details? \nPress y or n?");
 					char ch3 = in.next().charAt(0);
 					in.nextLine();
 					if(ch3 =='y') {
+						logger.info("Cancellation Details: ");
+						logger.info("----------------------------------------------------------------------------------------------------------------------------------------------------------");
 						c.displayCancellationDetails(oId);
+						
 						
 						for(Order j: CancellationDao.cancelList ) {
 							logger.info(j);	
-						}	
+						}
+						logger.info("----------------------------------------------------------------------------------------------------------------------------------------------------------");
 					}	
 				}	
-			}	
+			}
+			logger.info("Do you want to continue? Press y or n?");
+			ch = in.next().charAt(0);
 		}while(ch == 'y');
+		logger.info("=================================================");
+		logger.info("\n \t \t  PLACED ORDERS: \n");
+		impl.displayOrderlist();
+		logger.info("==================================================================================================");
 		logger.info("\n");
 		logger.info("Thank You Visit Again");
 		logger.info("\n");

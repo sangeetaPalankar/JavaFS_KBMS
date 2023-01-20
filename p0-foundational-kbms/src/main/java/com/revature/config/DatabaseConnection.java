@@ -6,15 +6,11 @@ import java.sql.SQLException;
 import java.util.ResourceBundle;
 
 public class DatabaseConnection {
-	private static Connection connection = null;
+  private static Connection connection = null;
 
 
-	public DatabaseConnection() {
-
-	}
-
-	public static Connection getConnection() {
-		if (connection == null) {
+	static {
+		
 			ResourceBundle resourceBundle = ResourceBundle.getBundle("kbms"); 
 			String driver =resourceBundle.getString("driver");
 			String dburl= resourceBundle.getString("dburl");
@@ -27,9 +23,12 @@ public class DatabaseConnection {
 					e.printStackTrace();
 				}
 		}
+	public static Connection getConnection() {
 		return connection;
+	}
+		
 
 }
-}
+
 
 

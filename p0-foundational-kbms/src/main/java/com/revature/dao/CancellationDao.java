@@ -12,7 +12,7 @@ public interface CancellationDao {
 	public static ArrayList<Order> orderlist = new ArrayList<>();
 	
 	
-	public void displayOrderlist();
+	public void displayOrderlist() throws ClassNotFoundException;
 	
 	public void checkOrder(int oId);
 	
