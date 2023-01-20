@@ -6,7 +6,7 @@
 - The administrator will be responsible to manage, add & restock products  & reporting.
 - Customer has been provided self registration feature who can place & cancel orders.
 	
-#FEATURES
+# FEATURES
 - Product Management
 - Customer Management
 - Place Order
