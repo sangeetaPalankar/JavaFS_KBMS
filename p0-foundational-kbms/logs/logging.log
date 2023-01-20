@@ -1352,4 +1352,63 @@ Press y or n?
 
   2023-01-20 11:35:47 INFO  MenuDrivenApplication:35 - 1. Sign In
   2023-01-20 11:35:47 INFO  MenuDrivenApplication:36 - 2. Exit
+  2023-01-20 19:27:46 INFO  MenuDrivenApplication:32 - ******    WELCOME TO KITCHEN BASKET    *****
+  2023-01-20 19:27:46 INFO  MenuDrivenApplication:33 - ================================================
+  2023-01-20 19:27:46 INFO  MenuDrivenApplication:34 - 
+
+  2023-01-20 19:27:46 INFO  MenuDrivenApplication:35 - 1. Sign In
+  2023-01-20 19:27:46 INFO  MenuDrivenApplication:36 - 2. Exit
+  2023-01-20 20:03:36 INFO  MenuDrivenApplication:32 - ******    WELCOME TO KITCHEN BASKET    *****
+  2023-01-20 20:03:36 INFO  MenuDrivenApplication:33 - ================================================
+  2023-01-20 20:03:36 INFO  MenuDrivenApplication:34 - 
+
+  2023-01-20 20:03:36 INFO  MenuDrivenApplication:35 - 1. Sign In
+  2023-01-20 20:03:36 INFO  MenuDrivenApplication:36 - 2. Exit
+  2023-01-20 20:04:00 INFO  MenuDrivenApplication:72 - Checking credentials...
+  2023-01-20 20:04:00 INFO  MenuDrivenApplication:86 - 
+
+  2023-01-20 20:04:00 INFO  MenuDrivenApplication:87 - ------------ Welcome, alexa_!----------------
+  2023-01-20 20:04:00 INFO  MenuDrivenApplication:106 - =================================================
+  2023-01-20 20:04:00 INFO  MenuDrivenApplication:107 - 
+ 	 	  PLACED ORDERS: 
+
+  2023-01-20 20:04:00 INFO  CancellationDaoImpl:36 - 
+
+  2023-01-20 20:04:00 INFO  CancellationDaoImpl:37 - ORDER ID 	 PRODUCT ID 	 PRODUCT NAME	 QUANTITY 	 TOTAL PRICE	 ORDER DATE
+  2023-01-20 20:04:00 INFO  CancellationDaoImpl:38 - 
+
+  2023-01-20 20:04:00 INFO  CancellationDaoImpl:47 - 10001		101		Apple		3		100.0		2022-10-23
+  2023-01-20 20:04:00 INFO  CancellationDaoImpl:47 - 10002		106		Carrot		2		200.0		2022-10-20
+  2023-01-20 20:04:00 INFO  CancellationDaoImpl:47 - 10003		108		onion		1		300.0		2022-11-23
+  2023-01-20 20:04:00 INFO  CancellationDaoImpl:47 - 10004		104		Grapes		5		100.0		2022-10-23
+  2023-01-20 20:04:00 INFO  CancellationDaoImpl:47 - 10005		103		Mango		3		100.0		2022-10-23
+  2023-01-20 20:04:00 INFO  CancellationDaoImpl:47 - 10007		112		Saffron		3		600.0		2022-10-23
+  2023-01-20 20:04:00 INFO  CancellationDaoImpl:47 - 10008		103		Mango		1		200.0		2022-10-23
+  2023-01-20 20:04:00 INFO  CancellationDaoImpl:47 - 10009		102		orange		3		150.0		2022-10-23
+  2023-01-20 20:04:00 INFO  MenuDrivenApplication:109 - ==================================================================================================
+  2023-01-20 20:04:00 INFO  MenuDrivenApplication:116 - Do you want to Cancel any order? 
+Press y or n?
+  2023-01-20 20:04:11 INFO  MenuDrivenApplication:121 - 
+
+  2023-01-20 20:04:11 INFO  MenuDrivenApplication:122 - Enter the Details to Cancel: 
+  2023-01-20 20:04:11 INFO  MenuDrivenApplication:124 - Order ID: 
+  2023-01-20 20:04:22 INFO  MenuDrivenApplication:130 - Reason: 
+  2023-01-20 20:04:27 INFO  MenuDrivenApplication:134 - 
+
+  2023-01-20 20:04:27 INFO  MenuDrivenApplication:135 - Are you sure to cancel order 10001 ?
+ Press y or n?
+  2023-01-20 20:05:08 INFO  CancellationDaoImpl:137 - 101
+  2023-01-20 20:05:08 INFO  MenuDrivenApplication:141 - ***** Order Cancelled sucessfully ******
+  2023-01-20 20:05:08 INFO  MenuDrivenApplication:142 - 
+
+  2023-01-20 20:05:08 INFO  MenuDrivenApplication:144 - ===========================================
+  2023-01-20 20:05:08 INFO  MenuDrivenApplication:145 - View Cancellation details? 
+Press y or n?
+  2023-01-20 20:05:16 INFO  MenuDrivenApplication:149 - Cancellation Details: 
+  2023-01-20 20:05:16 INFO  MenuDrivenApplication:150 - ----------------------------------------------------------------------------------------------------------------------------------------------------------
+  2023-01-20 20:05:16 INFO  MenuDrivenApplication:155 - Order [orderId=10001, productId=101, quantity=3, totalPrice=100.0, orderDate=2022-10-23, status=Cancelled, cancellationId=10001, cancellationDate=2023-01-20, cancellationReason=defective, preffered_login_Id=sonail_675]
+  2023-01-20 20:05:16 INFO  MenuDrivenApplication:157 - ----------------------------------------------------------------------------------------------------------------------------------------------------------
+  2023-01-20 20:05:16 INFO  MenuDrivenApplication:161 - Do you want to continue? Press y or n?
+  2023-01-20 20:05:32 INFO  MenuDrivenApplication:116 - Do you want to Cancel any order? 
+Press y or n?
   

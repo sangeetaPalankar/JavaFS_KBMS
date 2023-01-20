@@ -24,11 +24,11 @@ public class MenuDrivenApplication {
 	
 	static Scanner in = new Scanner(System.in);
 	
-	public static void main(String[] args) throws SQLException {	
+	public static void main(String[] args) throws SQLException, ClassNotFoundException {	
 		showMenu();
 	}
 	
-	public static void showMenu() throws SQLException {
+	public static void showMenu() throws SQLException, ClassNotFoundException {
 		logger.info(Constants.WELCOME_MESSAGE);
 		logger.info("=======================================");
 		logger.info(Constants.SIGN_IN);
@@ -56,7 +56,7 @@ public class MenuDrivenApplication {
 	
 	
 	
-	public static void login() throws SQLException {
+	public static void login() throws SQLException, ClassNotFoundException {
 
 		try(Connection connection = DatabaseConnection.getConnection();){
 				Statement statement = connection.createStatement();
@@ -96,7 +96,7 @@ public class MenuDrivenApplication {
 	}
 	
 	
-	public static void cancelOrders() throws SQLException {
+	public static void cancelOrders() throws SQLException, ClassNotFoundException {
 		CancellationDaoImpl impl = new CancellationDaoImpl();
 		CancellationDaoImpl olist = new CancellationDaoImpl();
 		Order order = new Order();

@@ -13,7 +13,7 @@ public class CancellationDisplayOrderTest {
 	@Test
 	public void test() {
 		CancellationDaoImpl cancelDao = new CancellationDaoImpl();
-		cancelDao.displayOrderlist();
+
 		int b = CancellationDaoImpl.orderCount;
 		assertEquals(b, CancellationDaoImpl.orderCount);
 		

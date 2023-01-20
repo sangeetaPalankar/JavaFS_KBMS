@@ -68,7 +68,6 @@ public class CancellationDaoImpl implements CancellationDao {
 	}
 	
 	
-
 	@Override
 	public void checkOrder(int oId) {
 

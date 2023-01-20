@@ -13,8 +13,6 @@ public class Order {
 	private String preffered_login_Id;
 	
 	
-	
-	
 	public Order() {
 		super();
 		// TODO Auto-generated constructor stub
