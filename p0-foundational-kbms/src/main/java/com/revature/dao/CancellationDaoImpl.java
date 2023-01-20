@@ -7,6 +7,8 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
+import org.apache.log4j.Logger;
+
 import com.revature.app.menu.MenuDrivenApplication;
 import com.revature.config.DatabaseConnection;
 import com.revature.constants.Constants;
@@ -14,22 +16,24 @@ import com.revature.model.Order;
 import com.revature.util.DateTimeUtil;
 
 public class CancellationDaoImpl implements CancellationDao {
-
+	private static final Logger logger = Logger.getLogger(CancellationDaoImpl.class);
 	private static Connection con = DatabaseConnection.getConnection();
 	MenuDrivenApplication menu = new MenuDrivenApplication();
 	public static int cancellationId = 10001;
 	Order order = new Order();
+	public static int orderCount =0;
+	public static boolean checkTest= false;
 
-	public static void displayOrderlist() {
+	public void displayOrderlist() {
+		
 		try {
 			//Class.forName("com.mysql.jdbc.Driver");
 			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/kbms_project", "root", "sangita123");
 			java.sql.Statement stm = con.createStatement();
 			ResultSet rs = stm.executeQuery(Constants.SELECT_ORDER_QUERY);
-			System.out.println();
-			System.out.println(
-					"ORDER ID \t LOGIN ID\t  PRODUCT ID \t PRODUCT NAME\t QUANTITY \t TOTAL PRICE\t ORDER DATE");
-			System.out.println();
+			logger.info("\n");
+			logger.info("ORDER ID \t PRODUCT ID \t PRODUCT NAME\t QUANTITY \t TOTAL PRICE\t ORDER DATE");
+			logger.info("\n");
 			while (rs.next()) {
 				String orderId = rs.getString("order_id");
 				String prefferedLoginId = rs.getString("preferred_login_id");
@@ -38,8 +42,7 @@ public class CancellationDaoImpl implements CancellationDao {
 				String quantity = rs.getString("quantity");
 				String totalPrice = rs.getString("total_price");
 				String orderDate = rs.getString("order_date");
-				System.out.println(orderId + "\t\t" + prefferedLoginId + "\t\t" + productId + "\t\t" + productName
-						+ "\t\t" + quantity + "\t\t" + totalPrice + "\t\t" + orderDate);
+				logger.info(orderId + "\t\t" + productId + "\t\t" + productName+ "\t\t" + quantity + "\t\t" + totalPrice + "\t\t" + orderDate);
 			}
 			String GET_ORDER_DETAILS = "SELECT * FROM ORDER_DETAILS";
 			ResultSet o = stm.executeQuery(GET_ORDER_DETAILS);
@@ -49,11 +52,12 @@ public class CancellationDaoImpl implements CancellationDao {
 						rs.getInt("cancellation_id"), rs.getString("cancellation_date"),
 						rs.getString("cancellation_reason"), rs.getString("preferred_login_id"));
 				CancellationDao.orderlist.add(order);
+				orderCount++;
 			}
-			System.out.println(CancellationDao.orderlist);
+			logger.info(CancellationDao.orderlist);
 
 		} catch (SQLException e) {
-			System.out.println(e.getMessage());
+			logger.info(e.getMessage());
 		}
 		try {
 			con.close();
@@ -85,18 +89,19 @@ public class CancellationDaoImpl implements CancellationDao {
 			for (Order i : CancellationDao.orderlist) {
 				if (i.getOrderId() == oId) {
 					flag = true;
+					checkTest = true;
 					if (i.getStatus().equals("Cancelled")) {
-						System.out.println("Order already Cancelled..");
+						logger.info("Order already Cancelled..");
 						menu.cancelOrders();
 					}
 				}
 			}
 			if (!flag) {
-				System.out.println("No Order found with Order Id " + oId+" . Try with valid Order Id:(");
+				logger.info("No Order found with Order Id " + oId+" . Try with valid Order Id:(");
 				menu.cancelOrders();
 			}
 		} catch (ClassNotFoundException | SQLException e) {
-			System.out.println(e.getMessage());
+			logger.info(e.getMessage());
 		}
 		try {
 			con.close();
@@ -106,7 +111,7 @@ public class CancellationDaoImpl implements CancellationDao {
 
 	
 	@Override
-	public void getCancelOrderDetails(int oId, String reason) {
+	public void cancelOrder(int oId, String reason) {
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
 			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/kbms_project", "root", "sangita123");
@@ -128,11 +133,11 @@ public class CancellationDaoImpl implements CancellationDao {
 			while(rs.next()) {
 				pId=rs.getInt("product_id");
 			}
-			System.out.println(pId);
+			logger.info(pId);
 			reflectChanges(pId);
 
 		} catch (ClassNotFoundException | SQLException e) {
-			System.out.println(e.getMessage());
+			logger.info(e.getMessage());
 		}
 		try {
 			con.close();
@@ -168,7 +173,7 @@ public class CancellationDaoImpl implements CancellationDao {
 			}
 
 		} catch (ClassNotFoundException | SQLException e) {
-			System.out.println(e.getMessage());
+			logger.info(e.getMessage());
 		}
 		try {
 			con.close();
@@ -190,7 +195,7 @@ public class CancellationDaoImpl implements CancellationDao {
 			int n = ps.executeUpdate();
 
 		} catch (ClassNotFoundException | SQLException e) {
-			System.out.println(e.getMessage());
+			logger.info(e.getMessage());
 		}
 		try {
 

@@ -1,0 +1,649 @@
+2023-01-19 21:46:16 INFO  CancellationDaoImpl:33 - 
+
+  2023-01-19 21:46:16 INFO  CancellationDaoImpl:34 - ORDER ID 	 LOGIN ID	  PRODUCT ID 	 PRODUCT NAME	 QUANTITY 	 TOTAL PRICE	 ORDER DATE
+  2023-01-19 21:46:16 INFO  CancellationDaoImpl:35 - 
+
+  2023-01-19 21:46:16 INFO  CancellationDaoImpl:44 - 10001		sonail_675		101		Apple		3		100.0		2022-10-23
+  2023-01-19 21:46:16 INFO  CancellationDaoImpl:44 - 10002		alexa_9090		106		Carrot		2		200.0		2022-10-20
+  2023-01-19 21:46:16 INFO  CancellationDaoImpl:44 - 10003		bob@hmail.com		108		onion		1		300.0		2022-11-23
+  2023-01-19 21:46:16 INFO  CancellationDaoImpl:44 - 10004		loki@hmail.com		104		Grapes		5		100.0		2022-10-23
+  2023-01-19 21:46:16 INFO  CancellationDaoImpl:44 - 10005		sonail_675		103		Mango		3		100.0		2022-10-23
+  2023-01-19 21:46:16 INFO  CancellationDaoImpl:44 - 10006		bob@hmail.com		111		Cardamom		4		500.0		2022-10-23
+  2023-01-19 21:46:16 INFO  CancellationDaoImpl:44 - 10007		polo90@hmail.com		112		Saffron		3		600.0		2022-10-23
+  2023-01-19 21:46:16 INFO  CancellationDaoImpl:44 - 10008		sonail_675		103		Mango		1		200.0		2022-10-23
+  2023-01-19 21:46:16 INFO  CancellationDaoImpl:44 - 10009		alexa_9090		102		orange		3		150.0		2022-10-23
+  2023-01-19 21:46:16 INFO  CancellationDaoImpl:60 - Operation not allowed after ResultSet closed
+  2023-01-19 22:56:26 INFO  MenuDrivenApplication:32 - ****WELCOME TO KITCHEN BASKET *****
+  2023-01-19 22:56:26 INFO  MenuDrivenApplication:33 - =======================================
+  2023-01-19 22:56:26 INFO  MenuDrivenApplication:34 - 1. Sign In
+  2023-01-19 22:56:26 INFO  MenuDrivenApplication:35 - 2. Exit
+  2023-01-19 23:01:59 INFO  MenuDrivenApplication:32 - ****WELCOME TO KITCHEN BASKET *****
+  2023-01-19 23:01:59 INFO  MenuDrivenApplication:33 - =======================================
+  2023-01-19 23:01:59 INFO  MenuDrivenApplication:34 - 1. Sign In
+  2023-01-19 23:01:59 INFO  MenuDrivenApplication:35 - 2. Exit
+  2023-01-19 23:02:13 INFO  MenuDrivenApplication:32 - ****WELCOME TO KITCHEN BASKET *****
+  2023-01-19 23:02:13 INFO  MenuDrivenApplication:33 - =======================================
+  2023-01-19 23:02:13 INFO  MenuDrivenApplication:34 - 1. Sign In
+  2023-01-19 23:02:13 INFO  MenuDrivenApplication:35 - 2. Exit
+  2023-01-19 23:03:39 INFO  MenuDrivenApplication:32 - ****WELCOME TO KITCHEN BASKET *****
+  2023-01-19 23:03:39 INFO  MenuDrivenApplication:33 - =======================================
+  2023-01-19 23:03:39 INFO  MenuDrivenApplication:34 - 1. Sign In
+  2023-01-19 23:03:39 INFO  MenuDrivenApplication:35 - 2. Exit
+  2023-01-19 23:03:52 INFO  MenuDrivenApplication:148 - =================================================
+  2023-01-19 23:03:52 INFO  MenuDrivenApplication:149 - 
+ 	 	 YOUR PLACED ORDERS: 
+
+  2023-01-19 23:03:52 INFO  CancellationDaoImpl:34 - 
+
+  2023-01-19 23:03:52 INFO  CancellationDaoImpl:35 - ORDER ID 	 LOGIN ID	  PRODUCT ID 	 PRODUCT NAME	 QUANTITY 	 TOTAL PRICE	 ORDER DATE
+  2023-01-19 23:03:52 INFO  CancellationDaoImpl:36 - 
+
+  2023-01-19 23:03:52 INFO  CancellationDaoImpl:45 - 10001		sonail_675		101		Apple		3		100.0		2022-10-23
+  2023-01-19 23:03:52 INFO  CancellationDaoImpl:45 - 10002		alexa_		106		Carrot		2		200.0		2022-10-20
+  2023-01-19 23:03:52 INFO  CancellationDaoImpl:45 - 10003		bob@hmail.com		108		onion		1		300.0		2022-11-23
+  2023-01-19 23:03:52 INFO  CancellationDaoImpl:45 - 10004		loki@hmail.com		104		Grapes		5		100.0		2022-10-23
+  2023-01-19 23:03:52 INFO  CancellationDaoImpl:45 - 10005		sonail_675		103		Mango		3		100.0		2022-10-23
+  2023-01-19 23:03:52 INFO  CancellationDaoImpl:45 - 10006		bob@hmail.com		111		Cardamom		4		500.0		2022-10-23
+  2023-01-19 23:03:52 INFO  CancellationDaoImpl:45 - 10007		polo90@hmail.com		112		Saffron		3		600.0		2022-10-23
+  2023-01-19 23:03:52 INFO  CancellationDaoImpl:45 - 10008		sonail_675		103		Mango		1		200.0		2022-10-23
+  2023-01-19 23:03:52 INFO  CancellationDaoImpl:45 - 10009		alexa_		102		orange		3		150.0		2022-10-23
+  2023-01-19 23:03:53 INFO  CancellationDaoImpl:61 - Operation not allowed after ResultSet closed
+  2023-01-19 23:03:53 INFO  MenuDrivenApplication:151 - =================================================
+  2023-01-19 23:03:53 INFO  MenuDrivenApplication:152 - Do you want to Cancel any order? 
+Press y or n?
+  2023-01-19 23:47:31 INFO  MenuDrivenApplication:32 - ****WELCOME TO KITCHEN BASKET *****
+  2023-01-19 23:47:31 INFO  MenuDrivenApplication:33 - =======================================
+  2023-01-19 23:47:31 INFO  MenuDrivenApplication:34 - 1. Sign In
+  2023-01-19 23:47:31 INFO  MenuDrivenApplication:35 - 2. Exit
+  2023-01-19 23:48:30 INFO  MenuDrivenApplication:32 - ****WELCOME TO KITCHEN BASKET *****
+  2023-01-19 23:48:30 INFO  MenuDrivenApplication:33 - =======================================
+  2023-01-19 23:48:30 INFO  MenuDrivenApplication:34 - 1. Sign In
+  2023-01-19 23:48:30 INFO  MenuDrivenApplication:35 - 2. Exit
+  2023-01-19 23:48:36 INFO  MenuDrivenApplication:32 - ****WELCOME TO KITCHEN BASKET *****
+  2023-01-19 23:48:36 INFO  MenuDrivenApplication:33 - =======================================
+  2023-01-19 23:48:36 INFO  MenuDrivenApplication:34 - 1. Sign In
+  2023-01-19 23:48:36 INFO  MenuDrivenApplication:35 - 2. Exit
+  2023-01-19 23:48:50 INFO  MenuDrivenApplication:106 - =================================================
+  2023-01-19 23:48:50 INFO  MenuDrivenApplication:107 - 
+ 	 	 YOUR PLACED ORDERS: 
+
+  2023-01-19 23:48:50 INFO  CancellationDaoImpl:34 - 
+
+  2023-01-19 23:48:50 INFO  CancellationDaoImpl:35 - ORDER ID 	 LOGIN ID	  PRODUCT ID 	 PRODUCT NAME	 QUANTITY 	 TOTAL PRICE	 ORDER DATE
+  2023-01-19 23:48:50 INFO  CancellationDaoImpl:36 - 
+
+  2023-01-19 23:48:50 INFO  CancellationDaoImpl:45 - 10001		sonail_675		101		Apple		3		100.0		2022-10-23
+  2023-01-19 23:48:50 INFO  CancellationDaoImpl:45 - 10002		alexa_		106		Carrot		2		200.0		2022-10-20
+  2023-01-19 23:48:50 INFO  CancellationDaoImpl:45 - 10003		bob@hmail.com		108		onion		1		300.0		2022-11-23
+  2023-01-19 23:48:50 INFO  CancellationDaoImpl:45 - 10004		loki@hmail.com		104		Grapes		5		100.0		2022-10-23
+  2023-01-19 23:48:50 INFO  CancellationDaoImpl:45 - 10005		sonail_675		103		Mango		3		100.0		2022-10-23
+  2023-01-19 23:48:50 INFO  CancellationDaoImpl:45 - 10006		bob@hmail.com		111		Cardamom		4		500.0		2022-10-23
+  2023-01-19 23:48:50 INFO  CancellationDaoImpl:45 - 10007		polo90@hmail.com		112		Saffron		3		600.0		2022-10-23
+  2023-01-19 23:48:50 INFO  CancellationDaoImpl:45 - 10008		sonail_675		103		Mango		1		200.0		2022-10-23
+  2023-01-19 23:48:50 INFO  CancellationDaoImpl:45 - 10009		alexa_		102		orange		3		150.0		2022-10-23
+  2023-01-19 23:48:50 INFO  CancellationDaoImpl:61 - Operation not allowed after ResultSet closed
+  2023-01-19 23:48:50 INFO  MenuDrivenApplication:109 - =================================================
+  2023-01-19 23:48:50 INFO  MenuDrivenApplication:110 - Do you want to Cancel any order? 
+Press y or n?
+  2023-01-19 23:50:42 INFO  MenuDrivenApplication:32 - ****WELCOME TO KITCHEN BASKET *****
+  2023-01-19 23:50:42 INFO  MenuDrivenApplication:33 - =======================================
+  2023-01-19 23:50:42 INFO  MenuDrivenApplication:34 - 1. Sign In
+  2023-01-19 23:50:42 INFO  MenuDrivenApplication:35 - 2. Exit
+  2023-01-19 23:50:57 INFO  MenuDrivenApplication:71 - Checking credentials...
+  2023-01-19 23:50:57 INFO  MenuDrivenApplication:85 - 
+
+  2023-01-19 23:50:57 INFO  MenuDrivenApplication:86 - -------------Welcome, alexa_!----------------
+  2023-01-19 23:50:57 INFO  MenuDrivenApplication:106 - =================================================
+  2023-01-19 23:50:57 INFO  MenuDrivenApplication:107 - 
+ 	 	 YOUR PLACED ORDERS: 
+
+  2023-01-19 23:50:57 INFO  CancellationDaoImpl:34 - 
+
+  2023-01-19 23:50:57 INFO  CancellationDaoImpl:35 - ORDER ID 	 LOGIN ID	  PRODUCT ID 	 PRODUCT NAME	 QUANTITY 	 TOTAL PRICE	 ORDER DATE
+  2023-01-19 23:50:57 INFO  CancellationDaoImpl:36 - 
+
+  2023-01-19 23:50:57 INFO  CancellationDaoImpl:45 - 10001		sonail_675		101		Apple		3		100.0		2022-10-23
+  2023-01-19 23:50:57 INFO  CancellationDaoImpl:45 - 10002		alexa_		106		Carrot		2		200.0		2022-10-20
+  2023-01-19 23:50:57 INFO  CancellationDaoImpl:45 - 10003		bob@hmail.com		108		onion		1		300.0		2022-11-23
+  2023-01-19 23:50:57 INFO  CancellationDaoImpl:45 - 10004		loki@hmail.com		104		Grapes		5		100.0		2022-10-23
+  2023-01-19 23:50:57 INFO  CancellationDaoImpl:45 - 10005		sonail_675		103		Mango		3		100.0		2022-10-23
+  2023-01-19 23:50:57 INFO  CancellationDaoImpl:45 - 10006		bob@hmail.com		111		Cardamom		4		500.0		2022-10-23
+  2023-01-19 23:50:57 INFO  CancellationDaoImpl:45 - 10007		polo90@hmail.com		112		Saffron		3		600.0		2022-10-23
+  2023-01-19 23:50:57 INFO  CancellationDaoImpl:45 - 10008		sonail_675		103		Mango		1		200.0		2022-10-23
+  2023-01-19 23:50:57 INFO  CancellationDaoImpl:45 - 10009		alexa_		102		orange		3		150.0		2022-10-23
+  2023-01-19 23:50:57 INFO  CancellationDaoImpl:61 - Operation not allowed after ResultSet closed
+  2023-01-19 23:50:57 INFO  MenuDrivenApplication:109 - =================================================
+  2023-01-19 23:50:57 INFO  MenuDrivenApplication:110 - Do you want to Cancel any order? 
+Press y or n?
+  2023-01-19 23:54:23 INFO  MenuDrivenApplication:115 - Enter the Details to Cancel: 
+  2023-01-19 23:54:23 INFO  MenuDrivenApplication:116 - 
+
+  2023-01-19 23:54:23 INFO  MenuDrivenApplication:117 - Order ID: 
+  2023-01-19 23:54:43 INFO  MenuDrivenApplication:123 - Reason: 
+  2023-01-19 23:55:22 INFO  MenuDrivenApplication:127 - Are you sure to cancel order 10008 ?
+ y or n
+  2023-01-19 23:56:26 INFO  CancellationDaoImpl:137 - 103
+  2023-01-19 23:56:26 INFO  MenuDrivenApplication:133 - Order Cancelled sucessfully..
+  2023-01-19 23:56:26 INFO  MenuDrivenApplication:134 - 
+
+  2023-01-19 23:56:26 INFO  MenuDrivenApplication:137 - View Cancellation details? 
+ y or n
+  2023-01-19 23:57:54 INFO  MenuDrivenApplication:143 - Order [orderId=10008, productId=103, quantity=1, totalPrice=200.0, orderDate=2022-10-23, status=Cancelled, cancellationId=10001, cancellationDate=2023-01-19, cancellationReason=by, preffered_login_Id=sonail_675]
+  2023-01-19 23:57:54 INFO  MenuDrivenApplication:106 - =================================================
+  2023-01-19 23:57:54 INFO  MenuDrivenApplication:107 - 
+ 	 	 YOUR PLACED ORDERS: 
+
+  2023-01-19 23:57:54 INFO  CancellationDaoImpl:34 - 
+
+  2023-01-19 23:57:54 INFO  CancellationDaoImpl:35 - ORDER ID 	 LOGIN ID	  PRODUCT ID 	 PRODUCT NAME	 QUANTITY 	 TOTAL PRICE	 ORDER DATE
+  2023-01-19 23:57:54 INFO  CancellationDaoImpl:36 - 
+
+  2023-01-19 23:57:54 INFO  CancellationDaoImpl:45 - 10001		sonail_675		101		Apple		3		100.0		2022-10-23
+  2023-01-19 23:57:54 INFO  CancellationDaoImpl:45 - 10002		alexa_		106		Carrot		2		200.0		2022-10-20
+  2023-01-19 23:57:54 INFO  CancellationDaoImpl:45 - 10003		bob@hmail.com		108		onion		1		300.0		2022-11-23
+  2023-01-19 23:57:54 INFO  CancellationDaoImpl:45 - 10004		loki@hmail.com		104		Grapes		5		100.0		2022-10-23
+  2023-01-19 23:57:54 INFO  CancellationDaoImpl:45 - 10005		sonail_675		103		Mango		3		100.0		2022-10-23
+  2023-01-19 23:57:54 INFO  CancellationDaoImpl:45 - 10006		bob@hmail.com		111		Cardamom		4		500.0		2022-10-23
+  2023-01-19 23:57:54 INFO  CancellationDaoImpl:45 - 10007		polo90@hmail.com		112		Saffron		3		600.0		2022-10-23
+  2023-01-19 23:57:54 INFO  CancellationDaoImpl:45 - 10009		alexa_		102		orange		3		150.0		2022-10-23
+  2023-01-19 23:57:54 INFO  CancellationDaoImpl:61 - Operation not allowed after ResultSet closed
+  2023-01-19 23:57:54 INFO  MenuDrivenApplication:109 - =================================================
+  2023-01-19 23:57:54 INFO  MenuDrivenApplication:110 - Do you want to Cancel any order? 
+Press y or n?
+  2023-01-19 23:58:51 INFO  MenuDrivenApplication:149 - 
+
+  2023-01-19 23:58:51 INFO  MenuDrivenApplication:150 - Thank You Visit Again
+  2023-01-19 23:58:51 INFO  MenuDrivenApplication:151 - 
+
+  2023-01-19 23:58:51 INFO  MenuDrivenApplication:32 - ****WELCOME TO KITCHEN BASKET *****
+  2023-01-19 23:58:51 INFO  MenuDrivenApplication:33 - =======================================
+  2023-01-19 23:58:51 INFO  MenuDrivenApplication:34 - 1. Sign In
+  2023-01-19 23:58:51 INFO  MenuDrivenApplication:35 - 2. Exit
+  2023-01-20 00:00:05 INFO  MenuDrivenApplication:71 - Checking credentials...
+  2023-01-20 00:00:05 INFO  MenuDrivenApplication:85 - 
+
+  2023-01-20 00:00:05 INFO  MenuDrivenApplication:86 - -------------Welcome, alexa_!----------------
+  2023-01-20 00:00:05 INFO  MenuDrivenApplication:106 - =================================================
+  2023-01-20 00:00:05 INFO  MenuDrivenApplication:107 - 
+ 	 	 YOUR PLACED ORDERS: 
+
+  2023-01-20 00:00:05 INFO  CancellationDaoImpl:34 - 
+
+  2023-01-20 00:00:05 INFO  CancellationDaoImpl:35 - ORDER ID 	 LOGIN ID	  PRODUCT ID 	 PRODUCT NAME	 QUANTITY 	 TOTAL PRICE	 ORDER DATE
+  2023-01-20 00:00:05 INFO  CancellationDaoImpl:36 - 
+
+  2023-01-20 00:00:05 INFO  CancellationDaoImpl:45 - 10001		sonail_675		101		Apple		3		100.0		2022-10-23
+  2023-01-20 00:00:05 INFO  CancellationDaoImpl:45 - 10002		alexa_		106		Carrot		2		200.0		2022-10-20
+  2023-01-20 00:00:05 INFO  CancellationDaoImpl:45 - 10003		bob@hmail.com		108		onion		1		300.0		2022-11-23
+  2023-01-20 00:00:05 INFO  CancellationDaoImpl:45 - 10004		loki@hmail.com		104		Grapes		5		100.0		2022-10-23
+  2023-01-20 00:00:05 INFO  CancellationDaoImpl:45 - 10005		sonail_675		103		Mango		3		100.0		2022-10-23
+  2023-01-20 00:00:05 INFO  CancellationDaoImpl:45 - 10006		bob@hmail.com		111		Cardamom		4		500.0		2022-10-23
+  2023-01-20 00:00:05 INFO  CancellationDaoImpl:45 - 10007		polo90@hmail.com		112		Saffron		3		600.0		2022-10-23
+  2023-01-20 00:00:05 INFO  CancellationDaoImpl:45 - 10009		alexa_		102		orange		3		150.0		2022-10-23
+  2023-01-20 00:00:05 INFO  CancellationDaoImpl:61 - Operation not allowed after ResultSet closed
+  2023-01-20 00:00:05 INFO  MenuDrivenApplication:109 - =================================================
+  2023-01-20 00:00:05 INFO  MenuDrivenApplication:110 - Do you want to Cancel any order? 
+Press y or n?
+  2023-01-20 00:02:58 INFO  MenuDrivenApplication:115 - Enter the Details to Cancel: 
+  2023-01-20 00:02:58 INFO  MenuDrivenApplication:116 - 
+
+  2023-01-20 00:02:58 INFO  MenuDrivenApplication:117 - Order ID: 
+  2023-01-20 00:04:06 INFO  MenuDrivenApplication:32 - ****WELCOME TO KITCHEN BASKET *****
+  2023-01-20 00:04:06 INFO  MenuDrivenApplication:33 - =======================================
+  2023-01-20 00:04:06 INFO  MenuDrivenApplication:34 - 1. Sign In
+  2023-01-20 00:04:06 INFO  MenuDrivenApplication:35 - 2. Exit
+  2023-01-20 00:04:16 INFO  MenuDrivenApplication:71 - Checking credentials...
+  2023-01-20 00:04:16 INFO  MenuDrivenApplication:85 - 
+
+  2023-01-20 00:04:16 INFO  MenuDrivenApplication:86 - -------------Welcome, alexa_!----------------
+  2023-01-20 00:04:16 INFO  MenuDrivenApplication:106 - =================================================
+  2023-01-20 00:04:16 INFO  MenuDrivenApplication:107 - 
+ 	 	 	 	 	 	 YOUR PLACED ORDERS: 
+
+  2023-01-20 00:04:16 INFO  CancellationDaoImpl:34 - 
+
+  2023-01-20 00:04:16 INFO  CancellationDaoImpl:35 - ORDER ID 	 LOGIN ID	  PRODUCT ID 	 PRODUCT NAME	 QUANTITY 	 TOTAL PRICE	 ORDER DATE
+  2023-01-20 00:04:16 INFO  CancellationDaoImpl:36 - 
+
+  2023-01-20 00:04:16 INFO  CancellationDaoImpl:45 - 10001	101	Apple	3	100.0	2022-10-23
+  2023-01-20 00:04:16 INFO  CancellationDaoImpl:45 - 10002	106	Carrot	2	200.0	2022-10-20
+  2023-01-20 00:04:16 INFO  CancellationDaoImpl:45 - 10003	108	onion	1	300.0	2022-11-23
+  2023-01-20 00:04:16 INFO  CancellationDaoImpl:45 - 10004	104	Grapes	5	100.0	2022-10-23
+  2023-01-20 00:04:16 INFO  CancellationDaoImpl:45 - 10005	103	Mango	3	100.0	2022-10-23
+  2023-01-20 00:04:16 INFO  CancellationDaoImpl:45 - 10006	111	Cardamom	4	500.0	2022-10-23
+  2023-01-20 00:04:16 INFO  CancellationDaoImpl:45 - 10007	112	Saffron	3	600.0	2022-10-23
+  2023-01-20 00:04:16 INFO  CancellationDaoImpl:45 - 10009	102	orange	3	150.0	2022-10-23
+  2023-01-20 00:04:16 INFO  CancellationDaoImpl:60 - Operation not allowed after ResultSet closed
+  2023-01-20 00:04:16 INFO  MenuDrivenApplication:109 - =================================================
+  2023-01-20 00:04:16 INFO  MenuDrivenApplication:110 - Do you want to Cancel any order? 
+Press y or n?
+  2023-01-20 00:04:56 INFO  MenuDrivenApplication:32 - ****WELCOME TO KITCHEN BASKET *****
+  2023-01-20 00:04:56 INFO  MenuDrivenApplication:33 - =======================================
+  2023-01-20 00:04:56 INFO  MenuDrivenApplication:34 - 1. Sign In
+  2023-01-20 00:04:56 INFO  MenuDrivenApplication:35 - 2. Exit
+  2023-01-20 00:05:12 INFO  MenuDrivenApplication:71 - Checking credentials...
+  2023-01-20 00:05:13 INFO  MenuDrivenApplication:85 - 
+
+  2023-01-20 00:05:13 INFO  MenuDrivenApplication:86 - -------------Welcome, alexa_!----------------
+  2023-01-20 00:05:13 INFO  MenuDrivenApplication:106 - =================================================
+  2023-01-20 00:05:13 INFO  MenuDrivenApplication:107 - 
+ 	 	 	 	 	 	 YOUR PLACED ORDERS: 
+
+  2023-01-20 00:05:13 INFO  CancellationDaoImpl:34 - 
+
+  2023-01-20 00:05:13 INFO  CancellationDaoImpl:35 - ORDER ID 	 PRODUCT ID 	 PRODUCT NAME	 QUANTITY 	 TOTAL PRICE	 ORDER DATE
+  2023-01-20 00:05:13 INFO  CancellationDaoImpl:36 - 
+
+  2023-01-20 00:05:13 INFO  CancellationDaoImpl:45 - 10001	101	Apple	3	100.0	2022-10-23
+  2023-01-20 00:05:13 INFO  CancellationDaoImpl:45 - 10002	106	Carrot	2	200.0	2022-10-20
+  2023-01-20 00:05:13 INFO  CancellationDaoImpl:45 - 10003	108	onion	1	300.0	2022-11-23
+  2023-01-20 00:05:13 INFO  CancellationDaoImpl:45 - 10004	104	Grapes	5	100.0	2022-10-23
+  2023-01-20 00:05:13 INFO  CancellationDaoImpl:45 - 10005	103	Mango	3	100.0	2022-10-23
+  2023-01-20 00:05:13 INFO  CancellationDaoImpl:45 - 10006	111	Cardamom	4	500.0	2022-10-23
+  2023-01-20 00:05:13 INFO  CancellationDaoImpl:45 - 10007	112	Saffron	3	600.0	2022-10-23
+  2023-01-20 00:05:13 INFO  CancellationDaoImpl:45 - 10009	102	orange	3	150.0	2022-10-23
+  2023-01-20 00:05:13 INFO  CancellationDaoImpl:60 - Operation not allowed after ResultSet closed
+  2023-01-20 00:05:13 INFO  MenuDrivenApplication:109 - =================================================
+  2023-01-20 00:05:13 INFO  MenuDrivenApplication:110 - Do you want to Cancel any order? 
+Press y or n?
+  2023-01-20 00:06:10 INFO  MenuDrivenApplication:32 - ****WELCOME TO KITCHEN BASKET *****
+  2023-01-20 00:06:10 INFO  MenuDrivenApplication:33 - =======================================
+  2023-01-20 00:06:10 INFO  MenuDrivenApplication:34 - 1. Sign In
+  2023-01-20 00:06:10 INFO  MenuDrivenApplication:35 - 2. Exit
+  2023-01-20 00:06:29 INFO  MenuDrivenApplication:71 - Checking credentials...
+  2023-01-20 00:06:29 INFO  MenuDrivenApplication:85 - 
+
+  2023-01-20 00:06:29 INFO  MenuDrivenApplication:86 - -------------Welcome, alexa_!----------------
+  2023-01-20 00:06:29 INFO  MenuDrivenApplication:106 - =================================================
+  2023-01-20 00:06:29 INFO  MenuDrivenApplication:107 - 
+ 	 	 	 	 	 	 YOUR PLACED ORDERS: 
+
+  2023-01-20 00:06:29 INFO  CancellationDaoImpl:34 - 
+
+  2023-01-20 00:06:29 INFO  CancellationDaoImpl:35 - ORDER ID 	 PRODUCT ID 	 PRODUCT NAME	 QUANTITY 	 TOTAL PRICE	 ORDER DATE
+  2023-01-20 00:06:29 INFO  CancellationDaoImpl:36 - 
+
+  2023-01-20 00:06:29 INFO  CancellationDaoImpl:45 - 10001		101		Apple		3		100.0		2022-10-23
+  2023-01-20 00:06:29 INFO  CancellationDaoImpl:45 - 10002		106		Carrot		2		200.0		2022-10-20
+  2023-01-20 00:06:29 INFO  CancellationDaoImpl:45 - 10003		108		onion		1		300.0		2022-11-23
+  2023-01-20 00:06:29 INFO  CancellationDaoImpl:45 - 10004		104		Grapes		5		100.0		2022-10-23
+  2023-01-20 00:06:29 INFO  CancellationDaoImpl:45 - 10005		103		Mango		3		100.0		2022-10-23
+  2023-01-20 00:06:29 INFO  CancellationDaoImpl:45 - 10006		111		Cardamom		4		500.0		2022-10-23
+  2023-01-20 00:06:29 INFO  CancellationDaoImpl:45 - 10007		112		Saffron		3		600.0		2022-10-23
+  2023-01-20 00:06:29 INFO  CancellationDaoImpl:45 - 10009		102		orange		3		150.0		2022-10-23
+  2023-01-20 00:06:30 INFO  CancellationDaoImpl:60 - Operation not allowed after ResultSet closed
+  2023-01-20 00:06:30 INFO  MenuDrivenApplication:109 - =================================================
+  2023-01-20 00:06:30 INFO  MenuDrivenApplication:110 - Do you want to Cancel any order? 
+Press y or n?
+  2023-01-20 00:07:21 INFO  MenuDrivenApplication:115 - Enter the Details to Cancel: 
+  2023-01-20 00:07:21 INFO  MenuDrivenApplication:116 - 
+
+  2023-01-20 00:07:21 INFO  MenuDrivenApplication:117 - Order ID: 
+  2023-01-20 00:07:29 INFO  MenuDrivenApplication:123 - Reason: 
+  2023-01-20 00:07:37 INFO  MenuDrivenApplication:127 - Are you sure to cancel order 10006 ?
+ y or n
+  2023-01-20 00:07:40 INFO  CancellationDaoImpl:136 - 111
+  2023-01-20 00:07:40 INFO  MenuDrivenApplication:133 - Order Cancelled sucessfully..
+  2023-01-20 00:07:40 INFO  MenuDrivenApplication:134 - 
+
+  2023-01-20 00:07:40 INFO  MenuDrivenApplication:137 - View Cancellation details? 
+ y or n
+  2023-01-20 00:07:46 INFO  MenuDrivenApplication:143 - Order [orderId=10006, productId=111, quantity=4, totalPrice=500.0, orderDate=2022-10-23, status=Cancelled, cancellationId=10001, cancellationDate=2023-01-20, cancellationReason=by, preffered_login_Id=bob@hmail.com]
+  2023-01-20 00:07:46 INFO  MenuDrivenApplication:106 - =================================================
+  2023-01-20 00:07:46 INFO  MenuDrivenApplication:107 - 
+ 	 	 	 	 	 	 YOUR PLACED ORDERS: 
+
+  2023-01-20 00:07:46 INFO  CancellationDaoImpl:34 - 
+
+  2023-01-20 00:07:47 INFO  CancellationDaoImpl:35 - ORDER ID 	 PRODUCT ID 	 PRODUCT NAME	 QUANTITY 	 TOTAL PRICE	 ORDER DATE
+  2023-01-20 00:07:47 INFO  CancellationDaoImpl:36 - 
+
+  2023-01-20 00:07:47 INFO  CancellationDaoImpl:45 - 10001		101		Apple		3		100.0		2022-10-23
+  2023-01-20 00:07:47 INFO  CancellationDaoImpl:45 - 10002		106		Carrot		2		200.0		2022-10-20
+  2023-01-20 00:07:47 INFO  CancellationDaoImpl:45 - 10003		108		onion		1		300.0		2022-11-23
+  2023-01-20 00:07:47 INFO  CancellationDaoImpl:45 - 10004		104		Grapes		5		100.0		2022-10-23
+  2023-01-20 00:07:47 INFO  CancellationDaoImpl:45 - 10005		103		Mango		3		100.0		2022-10-23
+  2023-01-20 00:07:47 INFO  CancellationDaoImpl:45 - 10007		112		Saffron		3		600.0		2022-10-23
+  2023-01-20 00:07:47 INFO  CancellationDaoImpl:45 - 10009		102		orange		3		150.0		2022-10-23
+  2023-01-20 00:07:47 INFO  CancellationDaoImpl:60 - Operation not allowed after ResultSet closed
+  2023-01-20 00:07:47 INFO  MenuDrivenApplication:109 - =================================================
+  2023-01-20 00:07:47 INFO  MenuDrivenApplication:110 - Do you want to Cancel any order? 
+Press y or n?
+  2023-01-20 00:09:00 INFO  MenuDrivenApplication:32 - ****WELCOME TO KITCHEN BASKET *****
+  2023-01-20 00:09:00 INFO  MenuDrivenApplication:33 - =======================================
+  2023-01-20 00:09:00 INFO  MenuDrivenApplication:34 - 1. Sign In
+  2023-01-20 00:09:00 INFO  MenuDrivenApplication:35 - 2. Exit
+  2023-01-20 00:09:23 INFO  MenuDrivenApplication:71 - Checking credentials...
+  2023-01-20 00:09:23 INFO  MenuDrivenApplication:85 - 
+
+  2023-01-20 00:09:23 INFO  MenuDrivenApplication:86 - -------------Welcome, alexa_!----------------
+  2023-01-20 00:09:23 INFO  MenuDrivenApplication:106 - =================================================
+  2023-01-20 00:09:23 INFO  MenuDrivenApplication:107 - 
+ 	 	 	 	 	 	 													 YOUR PLACED ORDERS: 
+
+  2023-01-20 00:09:23 INFO  CancellationDaoImpl:34 - 
+
+  2023-01-20 00:09:23 INFO  CancellationDaoImpl:35 - ORDER ID 	 PRODUCT ID 	 PRODUCT NAME	 QUANTITY 	 TOTAL PRICE	 ORDER DATE
+  2023-01-20 00:09:23 INFO  CancellationDaoImpl:36 - 
+
+  2023-01-20 00:09:23 INFO  CancellationDaoImpl:45 - 10001		101		Apple		3		100.0		2022-10-23
+  2023-01-20 00:09:23 INFO  CancellationDaoImpl:45 - 10002		106		Carrot		2		200.0		2022-10-20
+  2023-01-20 00:09:23 INFO  CancellationDaoImpl:45 - 10003		108		onion		1		300.0		2022-11-23
+  2023-01-20 00:09:23 INFO  CancellationDaoImpl:45 - 10004		104		Grapes		5		100.0		2022-10-23
+  2023-01-20 00:09:23 INFO  CancellationDaoImpl:45 - 10005		103		Mango		3		100.0		2022-10-23
+  2023-01-20 00:09:23 INFO  CancellationDaoImpl:45 - 10007		112		Saffron		3		600.0		2022-10-23
+  2023-01-20 00:09:23 INFO  CancellationDaoImpl:45 - 10009		102		orange		3		150.0		2022-10-23
+  2023-01-20 00:09:23 INFO  CancellationDaoImpl:60 - Operation not allowed after ResultSet closed
+  2023-01-20 00:09:23 INFO  MenuDrivenApplication:109 - =================================================
+  2023-01-20 00:09:23 INFO  MenuDrivenApplication:110 - Do you want to Cancel any order? 
+Press y or n?
+  2023-01-20 00:09:56 INFO  MenuDrivenApplication:32 - ****WELCOME TO KITCHEN BASKET *****
+  2023-01-20 00:09:56 INFO  MenuDrivenApplication:33 - =======================================
+  2023-01-20 00:09:56 INFO  MenuDrivenApplication:34 - 1. Sign In
+  2023-01-20 00:09:56 INFO  MenuDrivenApplication:35 - 2. Exit
+  2023-01-20 00:10:09 INFO  MenuDrivenApplication:71 - Checking credentials...
+  2023-01-20 00:10:09 INFO  MenuDrivenApplication:85 - 
+
+  2023-01-20 00:10:09 INFO  MenuDrivenApplication:86 - -------------Welcome, alexa_!----------------
+  2023-01-20 00:10:09 INFO  MenuDrivenApplication:106 - =================================================
+  2023-01-20 00:10:09 INFO  MenuDrivenApplication:107 - 
+ 	 	 	 	 	 	 					 YOUR PLACED ORDERS: 
+
+  2023-01-20 00:10:09 INFO  CancellationDaoImpl:34 - 
+
+  2023-01-20 00:10:09 INFO  CancellationDaoImpl:35 - ORDER ID 	 PRODUCT ID 	 PRODUCT NAME	 QUANTITY 	 TOTAL PRICE	 ORDER DATE
+  2023-01-20 00:10:09 INFO  CancellationDaoImpl:36 - 
+
+  2023-01-20 00:10:09 INFO  CancellationDaoImpl:45 - 10001		101		Apple		3		100.0		2022-10-23
+  2023-01-20 00:10:09 INFO  CancellationDaoImpl:45 - 10002		106		Carrot		2		200.0		2022-10-20
+  2023-01-20 00:10:09 INFO  CancellationDaoImpl:45 - 10003		108		onion		1		300.0		2022-11-23
+  2023-01-20 00:10:09 INFO  CancellationDaoImpl:45 - 10004		104		Grapes		5		100.0		2022-10-23
+  2023-01-20 00:10:09 INFO  CancellationDaoImpl:45 - 10005		103		Mango		3		100.0		2022-10-23
+  2023-01-20 00:10:09 INFO  CancellationDaoImpl:45 - 10007		112		Saffron		3		600.0		2022-10-23
+  2023-01-20 00:10:09 INFO  CancellationDaoImpl:45 - 10009		102		orange		3		150.0		2022-10-23
+  2023-01-20 00:10:09 INFO  CancellationDaoImpl:60 - Operation not allowed after ResultSet closed
+  2023-01-20 00:10:09 INFO  MenuDrivenApplication:109 - =================================================
+  2023-01-20 00:10:09 INFO  MenuDrivenApplication:110 - Do you want to Cancel any order? 
+Press y or n?
+  2023-01-20 00:15:03 INFO  MenuDrivenApplication:115 - Enter the Details to Cancel: 
+  2023-01-20 00:15:03 INFO  MenuDrivenApplication:116 - 
+
+  2023-01-20 00:15:03 INFO  MenuDrivenApplication:117 - Order ID: 
+  2023-01-20 00:15:42 INFO  MenuDrivenApplication:123 - Reason: 
+  2023-01-20 00:16:18 INFO  MenuDrivenApplication:127 - Are you sure to cancel order 10007 ?
+ y or n
+  2023-01-20 00:16:27 INFO  CancellationDaoImpl:136 - 112
+  2023-01-20 00:16:27 INFO  MenuDrivenApplication:133 - Order Cancelled sucessfully..
+  2023-01-20 00:16:27 INFO  MenuDrivenApplication:134 - 
+
+  2023-01-20 00:16:27 INFO  MenuDrivenApplication:137 - View Cancellation details? 
+ y or n
+  2023-01-20 00:16:33 INFO  MenuDrivenApplication:143 - Order [orderId=10007, productId=112, quantity=3, totalPrice=600.0, orderDate=2022-10-23, status=Cancelled, cancellationId=10001, cancellationDate=2023-01-20, cancellationReason="defective, preffered_login_Id=polo90@hmail.com]
+  2023-01-20 00:16:33 INFO  MenuDrivenApplication:106 - =================================================
+  2023-01-20 00:16:33 INFO  MenuDrivenApplication:107 - 
+ 	 	 	 	 	 	 					 YOUR PLACED ORDERS: 
+
+  2023-01-20 00:16:33 INFO  CancellationDaoImpl:34 - 
+
+  2023-01-20 00:16:33 INFO  CancellationDaoImpl:35 - ORDER ID 	 PRODUCT ID 	 PRODUCT NAME	 QUANTITY 	 TOTAL PRICE	 ORDER DATE
+  2023-01-20 00:16:33 INFO  CancellationDaoImpl:36 - 
+
+  2023-01-20 00:16:33 INFO  CancellationDaoImpl:45 - 10001		101		Apple		3		100.0		2022-10-23
+  2023-01-20 00:16:33 INFO  CancellationDaoImpl:45 - 10002		106		Carrot		2		200.0		2022-10-20
+  2023-01-20 00:16:33 INFO  CancellationDaoImpl:45 - 10003		108		onion		1		300.0		2022-11-23
+  2023-01-20 00:16:33 INFO  CancellationDaoImpl:45 - 10004		104		Grapes		5		100.0		2022-10-23
+  2023-01-20 00:16:33 INFO  CancellationDaoImpl:45 - 10005		103		Mango		3		100.0		2022-10-23
+  2023-01-20 00:16:33 INFO  CancellationDaoImpl:45 - 10009		102		orange		3		150.0		2022-10-23
+  2023-01-20 00:16:33 INFO  CancellationDaoImpl:60 - Operation not allowed after ResultSet closed
+  2023-01-20 00:16:33 INFO  MenuDrivenApplication:109 - =================================================
+  2023-01-20 00:16:33 INFO  MenuDrivenApplication:110 - Do you want to Cancel any order? 
+Press y or n?
+  2023-01-20 00:20:28 INFO  MenuDrivenApplication:32 - ****WELCOME TO KITCHEN BASKET *****
+  2023-01-20 00:20:28 INFO  MenuDrivenApplication:33 - =======================================
+  2023-01-20 00:20:28 INFO  MenuDrivenApplication:34 - 1. Sign In
+  2023-01-20 00:20:28 INFO  MenuDrivenApplication:35 - 2. Exit
+  2023-01-20 00:20:38 INFO  MenuDrivenApplication:71 - Checking credentials...
+  2023-01-20 00:20:38 INFO  MenuDrivenApplication:85 - 
+
+  2023-01-20 00:20:38 INFO  MenuDrivenApplication:86 - -------------Welcome, alexa_!----------------
+  2023-01-20 00:20:38 INFO  MenuDrivenApplication:106 - =================================================
+  2023-01-20 00:20:38 INFO  MenuDrivenApplication:107 - 
+ 	 	 	 	 	 	 					 YOUR PLACED ORDERS: 
+
+  2023-01-20 00:20:38 INFO  CancellationDaoImpl:34 - 
+
+  2023-01-20 00:20:38 INFO  CancellationDaoImpl:35 - ORDER ID 	 PRODUCT ID 	 PRODUCT NAME	 QUANTITY 	 TOTAL PRICE	 ORDER DATE
+  2023-01-20 00:20:38 INFO  CancellationDaoImpl:36 - 
+
+  2023-01-20 00:20:38 INFO  CancellationDaoImpl:45 - 10001		101		Apple		3		100.0		2022-10-23
+  2023-01-20 00:20:38 INFO  CancellationDaoImpl:45 - 10002		106		Carrot		2		200.0		2022-10-20
+  2023-01-20 00:20:38 INFO  CancellationDaoImpl:45 - 10003		108		onion		1		300.0		2022-11-23
+  2023-01-20 00:20:38 INFO  CancellationDaoImpl:45 - 10004		104		Grapes		5		100.0		2022-10-23
+  2023-01-20 00:20:38 INFO  CancellationDaoImpl:45 - 10005		103		Mango		3		100.0		2022-10-23
+  2023-01-20 00:20:38 INFO  CancellationDaoImpl:45 - 10006		111		Cardamom		4		500.0		2022-10-23
+  2023-01-20 00:20:38 INFO  CancellationDaoImpl:45 - 10007		112		Saffron		3		600.0		2022-10-23
+  2023-01-20 00:20:38 INFO  CancellationDaoImpl:45 - 10008		103		Mango		1		200.0		2022-10-23
+  2023-01-20 00:20:38 INFO  CancellationDaoImpl:45 - 10009		102		orange		3		150.0		2022-10-23
+  2023-01-20 00:20:38 INFO  CancellationDaoImpl:60 - Operation not allowed after ResultSet closed
+  2023-01-20 00:20:38 INFO  MenuDrivenApplication:109 - =================================================
+  2023-01-20 00:20:38 INFO  MenuDrivenApplication:110 - Do you want to Cancel any order? 
+Press y or n?
+  2023-01-20 00:20:49 INFO  MenuDrivenApplication:115 - Enter the Details to Cancel: 
+  2023-01-20 00:20:49 INFO  MenuDrivenApplication:116 - 
+
+  2023-01-20 00:20:49 INFO  MenuDrivenApplication:117 - Order ID: 
+  2023-01-20 00:21:00 INFO  MenuDrivenApplication:123 - Reason: 
+  2023-01-20 00:21:07 INFO  MenuDrivenApplication:127 - Are you sure to cancel order 10006 ?
+ y or n
+  2023-01-20 00:21:12 INFO  CancellationDaoImpl:136 - 111
+  2023-01-20 00:21:12 INFO  MenuDrivenApplication:133 - Order Cancelled sucessfully..
+  2023-01-20 00:21:12 INFO  MenuDrivenApplication:134 - 
+
+  2023-01-20 00:21:12 INFO  MenuDrivenApplication:137 - View Cancellation details? 
+ y or n
+  2023-01-20 00:21:17 INFO  MenuDrivenApplication:144 - Order [orderId=10006, productId=111, quantity=4, totalPrice=500.0, orderDate=2022-10-23, status=Cancelled, cancellationId=10001, cancellationDate=2023-01-20, cancellationReason=defective, preffered_login_Id=bob@hmail.com]
+  2023-01-20 00:21:17 INFO  MenuDrivenApplication:106 - =================================================
+  2023-01-20 00:21:17 INFO  MenuDrivenApplication:107 - 
+ 	 	 	 	 	 	 					 YOUR PLACED ORDERS: 
+
+  2023-01-20 00:21:17 INFO  CancellationDaoImpl:34 - 
+
+  2023-01-20 00:21:17 INFO  CancellationDaoImpl:35 - ORDER ID 	 PRODUCT ID 	 PRODUCT NAME	 QUANTITY 	 TOTAL PRICE	 ORDER DATE
+  2023-01-20 00:21:17 INFO  CancellationDaoImpl:36 - 
+
+  2023-01-20 00:21:17 INFO  CancellationDaoImpl:45 - 10001		101		Apple		3		100.0		2022-10-23
+  2023-01-20 00:21:17 INFO  CancellationDaoImpl:45 - 10002		106		Carrot		2		200.0		2022-10-20
+  2023-01-20 00:21:17 INFO  CancellationDaoImpl:45 - 10003		108		onion		1		300.0		2022-11-23
+  2023-01-20 00:21:17 INFO  CancellationDaoImpl:45 - 10004		104		Grapes		5		100.0		2022-10-23
+  2023-01-20 00:21:17 INFO  CancellationDaoImpl:45 - 10005		103		Mango		3		100.0		2022-10-23
+  2023-01-20 00:21:17 INFO  CancellationDaoImpl:45 - 10007		112		Saffron		3		600.0		2022-10-23
+  2023-01-20 00:21:17 INFO  CancellationDaoImpl:45 - 10008		103		Mango		1		200.0		2022-10-23
+  2023-01-20 00:21:17 INFO  CancellationDaoImpl:45 - 10009		102		orange		3		150.0		2022-10-23
+  2023-01-20 00:21:17 INFO  CancellationDaoImpl:60 - Operation not allowed after ResultSet closed
+  2023-01-20 00:21:17 INFO  MenuDrivenApplication:109 - =================================================
+  2023-01-20 00:21:17 INFO  MenuDrivenApplication:110 - Do you want to Cancel any order? 
+Press y or n?
+  2023-01-20 00:33:06 INFO  CancellationDaoImpl:100 - No Order found with Order Id 100544481 . Try with valid Order Id:(
+  2023-01-20 00:33:06 INFO  MenuDrivenApplication:106 - =================================================
+  2023-01-20 00:33:06 INFO  MenuDrivenApplication:107 - 
+ 	 	 	 	 	 	 					 YOUR PLACED ORDERS: 
+
+  2023-01-20 00:33:06 INFO  CancellationDaoImpl:34 - 
+
+  2023-01-20 00:33:06 INFO  CancellationDaoImpl:35 - ORDER ID 	 PRODUCT ID 	 PRODUCT NAME	 QUANTITY 	 TOTAL PRICE	 ORDER DATE
+  2023-01-20 00:33:06 INFO  CancellationDaoImpl:36 - 
+
+  2023-01-20 00:33:06 INFO  CancellationDaoImpl:45 - 10001		101		Apple		3		100.0		2022-10-23
+  2023-01-20 00:33:06 INFO  CancellationDaoImpl:45 - 10002		106		Carrot		2		200.0		2022-10-20
+  2023-01-20 00:33:06 INFO  CancellationDaoImpl:45 - 10003		108		onion		1		300.0		2022-11-23
+  2023-01-20 00:33:06 INFO  CancellationDaoImpl:45 - 10004		104		Grapes		5		100.0		2022-10-23
+  2023-01-20 00:33:06 INFO  CancellationDaoImpl:45 - 10005		103		Mango		3		100.0		2022-10-23
+  2023-01-20 00:33:06 INFO  CancellationDaoImpl:45 - 10007		112		Saffron		3		600.0		2022-10-23
+  2023-01-20 00:33:06 INFO  CancellationDaoImpl:45 - 10008		103		Mango		1		200.0		2022-10-23
+  2023-01-20 00:33:06 INFO  CancellationDaoImpl:45 - 10009		102		orange		3		150.0		2022-10-23
+  2023-01-20 00:33:06 INFO  CancellationDaoImpl:60 - Operation not allowed after ResultSet closed
+  2023-01-20 00:33:06 INFO  MenuDrivenApplication:109 - =================================================
+  2023-01-20 00:33:06 INFO  MenuDrivenApplication:110 - Do you want to Cancel any order? 
+Press y or n?
+  2023-01-20 00:33:25 INFO  CancellationDaoImpl:100 - No Order found with Order Id 100544481 . Try with valid Order Id:(
+  2023-01-20 00:33:25 INFO  MenuDrivenApplication:106 - =================================================
+  2023-01-20 00:33:25 INFO  MenuDrivenApplication:107 - 
+ 	 	 	 	 	 	 					 YOUR PLACED ORDERS: 
+
+  2023-01-20 00:33:25 INFO  CancellationDaoImpl:34 - 
+
+  2023-01-20 00:33:25 INFO  CancellationDaoImpl:35 - ORDER ID 	 PRODUCT ID 	 PRODUCT NAME	 QUANTITY 	 TOTAL PRICE	 ORDER DATE
+  2023-01-20 00:33:25 INFO  CancellationDaoImpl:36 - 
+
+  2023-01-20 00:33:25 INFO  CancellationDaoImpl:45 - 10001		101		Apple		3		100.0		2022-10-23
+  2023-01-20 00:33:25 INFO  CancellationDaoImpl:45 - 10002		106		Carrot		2		200.0		2022-10-20
+  2023-01-20 00:33:25 INFO  CancellationDaoImpl:45 - 10003		108		onion		1		300.0		2022-11-23
+  2023-01-20 00:33:25 INFO  CancellationDaoImpl:45 - 10004		104		Grapes		5		100.0		2022-10-23
+  2023-01-20 00:33:25 INFO  CancellationDaoImpl:45 - 10005		103		Mango		3		100.0		2022-10-23
+  2023-01-20 00:33:25 INFO  CancellationDaoImpl:45 - 10007		112		Saffron		3		600.0		2022-10-23
+  2023-01-20 00:33:25 INFO  CancellationDaoImpl:45 - 10008		103		Mango		1		200.0		2022-10-23
+  2023-01-20 00:33:25 INFO  CancellationDaoImpl:45 - 10009		102		orange		3		150.0		2022-10-23
+  2023-01-20 00:33:25 INFO  CancellationDaoImpl:60 - Operation not allowed after ResultSet closed
+  2023-01-20 00:33:25 INFO  MenuDrivenApplication:109 - =================================================
+  2023-01-20 00:33:25 INFO  MenuDrivenApplication:110 - Do you want to Cancel any order? 
+Press y or n?
+  2023-01-20 00:33:40 INFO  CancellationDaoImpl:100 - No Order found with Order Id 100544481 . Try with valid Order Id:(
+  2023-01-20 00:33:40 INFO  MenuDrivenApplication:106 - =================================================
+  2023-01-20 00:33:40 INFO  MenuDrivenApplication:107 - 
+ 	 	 	 	 	 	 					 YOUR PLACED ORDERS: 
+
+  2023-01-20 00:33:40 INFO  CancellationDaoImpl:34 - 
+
+  2023-01-20 00:33:40 INFO  CancellationDaoImpl:35 - ORDER ID 	 PRODUCT ID 	 PRODUCT NAME	 QUANTITY 	 TOTAL PRICE	 ORDER DATE
+  2023-01-20 00:33:40 INFO  CancellationDaoImpl:36 - 
+
+  2023-01-20 00:33:40 INFO  CancellationDaoImpl:45 - 10001		101		Apple		3		100.0		2022-10-23
+  2023-01-20 00:33:40 INFO  CancellationDaoImpl:45 - 10002		106		Carrot		2		200.0		2022-10-20
+  2023-01-20 00:33:40 INFO  CancellationDaoImpl:45 - 10003		108		onion		1		300.0		2022-11-23
+  2023-01-20 00:33:40 INFO  CancellationDaoImpl:45 - 10004		104		Grapes		5		100.0		2022-10-23
+  2023-01-20 00:33:40 INFO  CancellationDaoImpl:45 - 10005		103		Mango		3		100.0		2022-10-23
+  2023-01-20 00:33:40 INFO  CancellationDaoImpl:45 - 10007		112		Saffron		3		600.0		2022-10-23
+  2023-01-20 00:33:40 INFO  CancellationDaoImpl:45 - 10008		103		Mango		1		200.0		2022-10-23
+  2023-01-20 00:33:40 INFO  CancellationDaoImpl:45 - 10009		102		orange		3		150.0		2022-10-23
+  2023-01-20 00:33:40 INFO  CancellationDaoImpl:60 - Operation not allowed after ResultSet closed
+  2023-01-20 00:33:40 INFO  MenuDrivenApplication:109 - =================================================
+  2023-01-20 00:33:40 INFO  MenuDrivenApplication:110 - Do you want to Cancel any order? 
+Press y or n?
+  2023-01-20 00:38:19 INFO  CancellationDaoImpl:100 - No Order found with Order Id 100544481 . Try with valid Order Id:(
+  2023-01-20 00:38:19 INFO  MenuDrivenApplication:106 - =================================================
+  2023-01-20 00:38:19 INFO  MenuDrivenApplication:107 - 
+ 	 	 	 	 	 	 					 YOUR PLACED ORDERS: 
+
+  2023-01-20 00:38:19 INFO  CancellationDaoImpl:34 - 
+
+  2023-01-20 00:38:19 INFO  CancellationDaoImpl:35 - ORDER ID 	 PRODUCT ID 	 PRODUCT NAME	 QUANTITY 	 TOTAL PRICE	 ORDER DATE
+  2023-01-20 00:38:19 INFO  CancellationDaoImpl:36 - 
+
+  2023-01-20 00:38:19 INFO  CancellationDaoImpl:45 - 10001		101		Apple		3		100.0		2022-10-23
+  2023-01-20 00:38:19 INFO  CancellationDaoImpl:45 - 10002		106		Carrot		2		200.0		2022-10-20
+  2023-01-20 00:38:19 INFO  CancellationDaoImpl:45 - 10003		108		onion		1		300.0		2022-11-23
+  2023-01-20 00:38:19 INFO  CancellationDaoImpl:45 - 10004		104		Grapes		5		100.0		2022-10-23
+  2023-01-20 00:38:19 INFO  CancellationDaoImpl:45 - 10005		103		Mango		3		100.0		2022-10-23
+  2023-01-20 00:38:19 INFO  CancellationDaoImpl:45 - 10007		112		Saffron		3		600.0		2022-10-23
+  2023-01-20 00:38:19 INFO  CancellationDaoImpl:45 - 10008		103		Mango		1		200.0		2022-10-23
+  2023-01-20 00:38:19 INFO  CancellationDaoImpl:45 - 10009		102		orange		3		150.0		2022-10-23
+  2023-01-20 00:38:19 INFO  CancellationDaoImpl:60 - Operation not allowed after ResultSet closed
+  2023-01-20 00:38:19 INFO  MenuDrivenApplication:109 - =================================================
+  2023-01-20 00:38:19 INFO  MenuDrivenApplication:110 - Do you want to Cancel any order? 
+Press y or n?
+  2023-01-20 00:38:36 INFO  MenuDrivenApplication:115 - Enter the Details to Cancel: 
+  2023-01-20 00:38:36 INFO  MenuDrivenApplication:116 - 
+
+  2023-01-20 00:38:36 INFO  MenuDrivenApplication:117 - Order ID: 
+  2023-01-20 00:39:03 INFO  CancellationDaoImpl:100 - No Order found with Order Id 100544481 . Try with valid Order Id:(
+  2023-01-20 00:39:03 INFO  MenuDrivenApplication:106 - =================================================
+  2023-01-20 00:39:03 INFO  MenuDrivenApplication:107 - 
+ 	 	 	 	 	 	 					 YOUR PLACED ORDERS: 
+
+  2023-01-20 00:39:03 INFO  CancellationDaoImpl:34 - 
+
+  2023-01-20 00:39:03 INFO  CancellationDaoImpl:35 - ORDER ID 	 PRODUCT ID 	 PRODUCT NAME	 QUANTITY 	 TOTAL PRICE	 ORDER DATE
+  2023-01-20 00:39:03 INFO  CancellationDaoImpl:36 - 
+
+  2023-01-20 00:39:03 INFO  CancellationDaoImpl:45 - 10001		101		Apple		3		100.0		2022-10-23
+  2023-01-20 00:39:03 INFO  CancellationDaoImpl:45 - 10002		106		Carrot		2		200.0		2022-10-20
+  2023-01-20 00:39:03 INFO  CancellationDaoImpl:45 - 10003		108		onion		1		300.0		2022-11-23
+  2023-01-20 00:39:03 INFO  CancellationDaoImpl:45 - 10004		104		Grapes		5		100.0		2022-10-23
+  2023-01-20 00:39:03 INFO  CancellationDaoImpl:45 - 10005		103		Mango		3		100.0		2022-10-23
+  2023-01-20 00:39:03 INFO  CancellationDaoImpl:45 - 10007		112		Saffron		3		600.0		2022-10-23
+  2023-01-20 00:39:03 INFO  CancellationDaoImpl:45 - 10008		103		Mango		1		200.0		2022-10-23
+  2023-01-20 00:39:03 INFO  CancellationDaoImpl:45 - 10009		102		orange		3		150.0		2022-10-23
+  2023-01-20 00:39:03 INFO  CancellationDaoImpl:60 - Operation not allowed after ResultSet closed
+  2023-01-20 00:39:03 INFO  MenuDrivenApplication:109 - =================================================
+  2023-01-20 00:39:03 INFO  MenuDrivenApplication:110 - Do you want to Cancel any order? 
+Press y or n?
+  2023-01-20 00:39:07 INFO  MenuDrivenApplication:115 - Enter the Details to Cancel: 
+  2023-01-20 00:39:07 INFO  MenuDrivenApplication:116 - 
+
+  2023-01-20 00:39:07 INFO  MenuDrivenApplication:117 - Order ID: 
+  2023-01-20 00:39:17 INFO  CancellationDaoImpl:100 - No Order found with Order Id 100544481 . Try with valid Order Id:(
+  2023-01-20 00:39:17 INFO  MenuDrivenApplication:106 - =================================================
+  2023-01-20 00:39:17 INFO  MenuDrivenApplication:107 - 
+ 	 	 	 	 	 	 					 YOUR PLACED ORDERS: 
+
+  2023-01-20 00:39:17 INFO  CancellationDaoImpl:34 - 
+
+  2023-01-20 00:39:17 INFO  CancellationDaoImpl:35 - ORDER ID 	 PRODUCT ID 	 PRODUCT NAME	 QUANTITY 	 TOTAL PRICE	 ORDER DATE
+  2023-01-20 00:39:17 INFO  CancellationDaoImpl:36 - 
+
+  2023-01-20 00:39:17 INFO  CancellationDaoImpl:45 - 10001		101		Apple		3		100.0		2022-10-23
+  2023-01-20 00:39:17 INFO  CancellationDaoImpl:45 - 10002		106		Carrot		2		200.0		2022-10-20
+  2023-01-20 00:39:17 INFO  CancellationDaoImpl:45 - 10003		108		onion		1		300.0		2022-11-23
+  2023-01-20 00:39:17 INFO  CancellationDaoImpl:45 - 10004		104		Grapes		5		100.0		2022-10-23
+  2023-01-20 00:39:17 INFO  CancellationDaoImpl:45 - 10005		103		Mango		3		100.0		2022-10-23
+  2023-01-20 00:39:17 INFO  CancellationDaoImpl:45 - 10007		112		Saffron		3		600.0		2022-10-23
+  2023-01-20 00:39:17 INFO  CancellationDaoImpl:45 - 10008		103		Mango		1		200.0		2022-10-23
+  2023-01-20 00:39:17 INFO  CancellationDaoImpl:45 - 10009		102		orange		3		150.0		2022-10-23
+  2023-01-20 00:39:17 INFO  CancellationDaoImpl:60 - Operation not allowed after ResultSet closed
+  2023-01-20 00:39:17 INFO  MenuDrivenApplication:109 - =================================================
+  2023-01-20 00:39:17 INFO  MenuDrivenApplication:110 - Do you want to Cancel any order? 
+Press y or n?
+  2023-01-20 00:39:29 INFO  MenuDrivenApplication:115 - Enter the Details to Cancel: 
+  2023-01-20 00:39:29 INFO  MenuDrivenApplication:116 - 
+
+  2023-01-20 00:39:29 INFO  MenuDrivenApplication:117 - Order ID: 
+  2023-01-20 00:39:59 INFO  MenuDrivenApplication:123 - Reason: 
+  2023-01-20 00:40:02 INFO  MenuDrivenApplication:127 - Are you sure to cancel order 10009 ?
+ y or n
+  2023-01-20 00:42:40 INFO  CancellationDaoImpl:100 - No Order found with Order Id 125475 . Try with valid Order Id:(
+  2023-01-20 00:42:40 INFO  MenuDrivenApplication:106 - =================================================
+  2023-01-20 00:42:40 INFO  MenuDrivenApplication:107 - 
+ 	 	 	 	 	 	 					 YOUR PLACED ORDERS: 
+
+  2023-01-20 00:42:41 INFO  CancellationDaoImpl:34 - 
+
+  2023-01-20 00:42:41 INFO  CancellationDaoImpl:35 - ORDER ID 	 PRODUCT ID 	 PRODUCT NAME	 QUANTITY 	 TOTAL PRICE	 ORDER DATE
+  2023-01-20 00:42:41 INFO  CancellationDaoImpl:36 - 
+
+  2023-01-20 00:42:41 INFO  CancellationDaoImpl:45 - 10001		101		Apple		3		100.0		2022-10-23
+  2023-01-20 00:42:41 INFO  CancellationDaoImpl:45 - 10002		106		Carrot		2		200.0		2022-10-20
+  2023-01-20 00:42:41 INFO  CancellationDaoImpl:45 - 10003		108		onion		1		300.0		2022-11-23
+  2023-01-20 00:42:41 INFO  CancellationDaoImpl:45 - 10004		104		Grapes		5		100.0		2022-10-23
+  2023-01-20 00:42:41 INFO  CancellationDaoImpl:45 - 10005		103		Mango		3		100.0		2022-10-23
+  2023-01-20 00:42:41 INFO  CancellationDaoImpl:45 - 10007		112		Saffron		3		600.0		2022-10-23
+  2023-01-20 00:42:41 INFO  CancellationDaoImpl:45 - 10008		103		Mango		1		200.0		2022-10-23
+  2023-01-20 00:42:41 INFO  CancellationDaoImpl:45 - 10009		102		orange		3		150.0		2022-10-23
+  2023-01-20 00:42:41 INFO  CancellationDaoImpl:60 - Operation not allowed after ResultSet closed
+  2023-01-20 00:42:41 INFO  MenuDrivenApplication:109 - =================================================
+  2023-01-20 00:42:41 INFO  MenuDrivenApplication:110 - Do you want to Cancel any order? 
+Press y or n?
+  2023-01-20 00:45:53 INFO  CancellationDaoImpl:34 - 
+
+  2023-01-20 00:45:53 INFO  CancellationDaoImpl:35 - ORDER ID 	 PRODUCT ID 	 PRODUCT NAME	 QUANTITY 	 TOTAL PRICE	 ORDER DATE
+  2023-01-20 00:45:53 INFO  CancellationDaoImpl:36 - 
+
+  2023-01-20 00:45:53 INFO  CancellationDaoImpl:45 - 10001		101		Apple		3		100.0		2022-10-23
+  2023-01-20 00:45:53 INFO  CancellationDaoImpl:45 - 10002		106		Carrot		2		200.0		2022-10-20
+  2023-01-20 00:45:53 INFO  CancellationDaoImpl:45 - 10003		108		onion		1		300.0		2022-11-23
+  2023-01-20 00:45:53 INFO  CancellationDaoImpl:45 - 10004		104		Grapes		5		100.0		2022-10-23
+  2023-01-20 00:45:53 INFO  CancellationDaoImpl:45 - 10005		103		Mango		3		100.0		2022-10-23
+  2023-01-20 00:45:53 INFO  CancellationDaoImpl:45 - 10007		112		Saffron		3		600.0		2022-10-23
+  2023-01-20 00:45:53 INFO  CancellationDaoImpl:45 - 10008		103		Mango		1		200.0		2022-10-23
+  2023-01-20 00:45:53 INFO  CancellationDaoImpl:45 - 10009		102		orange		3		150.0		2022-10-23
+  2023-01-20 00:45:53 INFO  CancellationDaoImpl:60 - Operation not allowed after ResultSet closed
+  

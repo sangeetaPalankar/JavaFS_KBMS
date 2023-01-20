@@ -9,19 +9,21 @@ import com.revature.model.Order;
 public interface CancellationDao {
 	
 	public static List<Order> cancelList = new ArrayList<>();
-	public static ArrayList<Order> orderlist = new ArrayList<>();	
+	public static ArrayList<Order> orderlist = new ArrayList<>();
+	
+	
+	public void displayOrderlist();
 	
 	public void checkOrder(int oId);
 	
-	public void getCancelOrderDetails(int orderId, String reason) throws SQLException;
-	
-
+	public void cancelOrder(int orderId, String reason) throws SQLException;
 	
 	public int generateCancellationId();
 	
+	public void displayCancellationDetails(int orderId);
 	
 	public void reflectChanges(int productId);
 	
-	public void displayCancellationDetails(int orderId);
+	
 	
 }

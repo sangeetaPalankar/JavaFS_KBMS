@@ -30,7 +30,7 @@ INSERT INTO Customer
 `preferred_login_id`)
 VALUES
 ("Alexa","al9090@hmail.com", 9090787856, "Street 12, green tower, Jordan", 
-    "1989-10-10", 32, "xxxxxxx", "visa card", "al9090@hmail.com"),
+    "1989-10-10", 32, "alexa123", "visa card", "al9090@hmail.com"),
     
     ("Alexander","polo90@hmail.com", 9898990908, "Street 3, twin tower, tordan", 
     "1978-02-19", 43, "xxxxxxx", "visa card", "polo90@hmail.com"),
@@ -45,7 +45,7 @@ VALUES
     "2002-09-11",20, "xxxxxxx", "visa card", "bob@hmail.com"),
     
     ("Alexa","al9090@hmail.com", 9894523889, "Street 3, twin tower, Jordan", 
-    "1999-11-10", 23, "xxxxxxx", "visa card", "alexa_9090"),
+    "1999-11-10", 23, "pass123", "visa card", "alexa_"),
     
     ("Sonail","sonail@hmail.com", 9897890589, "Street 3, twin tower, Jordan", 
     "1993-12-12", 29, "xxxxxxx", "visa card", "sonail_675");
@@ -54,14 +54,14 @@ INSERT INTO ORDER_DETAILS
 (ORDER_ID, preferred_login_id, PRODUCT_ID, QUANTITY, TOTAL_PRICE, ORDER_DATE, STATUS, CANCELLATION_DATE, CANCELLATION_REASON)
 VALUES 
 (10001,"sonail_675", 101 , 3, 100.00,'2022-10-23',"Confirmed", null, null),
-(10002,"alexa_9090",106 , 2, 200.00 , '2022-10-20',"Confirmed",null,null),
+(10002,"alexa_",106 , 2, 200.00 , '2022-10-20',"Confirmed",null,null),
 (10003,"bob@hmail.com",108,1,300.00, '2022-11-23',"Confirmed", null,null),
 (10004,"loki@hmail.com", 104 , 5, 100.00,'2022-10-23',"Confirmed", null, null),
 (10005,"sonail_675", 103 , 3, 100.00,'2022-10-23',"Confirmed", null, null),
 (10006,"bob@hmail.com", 111 , 4, 500.00,'2022-10-23',"Confirmed", null, null),
 (10007,"polo90@hmail.com", 112 , 3, 600.00,'2022-10-23',"Confirmed", null, null),
 (10008,"sonail_675", 103 , 1, 200.00,'2022-10-23',"Confirmed", null, null),
-(10009,"alexa_9090", 102 , 3, 150.00,'2022-10-23',"Confirmed", null, null);
+(10009,"alexa_", 102 , 3, 150.00,'2022-10-23',"Confirmed", null, null);
 
 
 UPDATE order_details SET STATUS ="Cancelled",
@@ -74,3 +74,4 @@ UPDATE PRODUCT p join order_details o on p.PRODUCT_ID=o.PRODUCT_ID set PRODUCT_C
 
 DELETE FROM ORDER_DETAILS;
 DELETE FROM  PRODUCT;
+DELETE FROM CUSTOMER;

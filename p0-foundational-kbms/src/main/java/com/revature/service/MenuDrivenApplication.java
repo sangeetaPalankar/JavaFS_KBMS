@@ -1,4 +1,4 @@
-package com.revature.app.menu;
+package com.revature.service;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
