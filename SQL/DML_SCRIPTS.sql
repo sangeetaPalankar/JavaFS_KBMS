@@ -2,20 +2,20 @@ USE KBMS_PROJECT;
 
 /*INSERT QUERIES*/
 INSERT INTO PRODUCT 
-(PRODUCT_ID, PRODUCT_NAME, PRODUCT_COUNT, TOTAL_STOCK, BEST_BEFORE, PRICE_PER_UNIT,TYPE_OF_PRODUCT)
+(PRODUCT_NAME, PRODUCT_COUNT, TOTAL_STOCK, BEST_BEFORE, PRICE_PER_UNIT,TYPE_OF_PRODUCT)
 VALUES
-(101, "Apple", 200, 500, '2023-03-23', 150,"fruit"),
-(102, "orange", 80, 600, '2023-03-30', 50,"fruit"),
-(103, "Mango", 40, 800, '2023-05-23', 250,"fruit"),
-(104, "Grapes", 50, 30, '2023-03-23', 150,"fruit"),
-(105, "Potato", 200, 500, '2023-03-23', 150,"vegitable"),
-(106, "Carrot", 80, 600, '2023-03-30', 50,"vegitable"),
-(107, "Lady Finger", 40, 800, '2023-05-23', 250,"vegitable"),
-(108, "onion", 50, 30, '2023-03-23', 150,"vegitable"),
-(109, "Nutmeg", 200, 500, '2023-03-23', 150,"Spices"),
-(110, "Black Pepper", 80, 600, '2023-03-30', 50,"Spices"),
-(111, "Cardamom", 40, 800, '2023-05-23', 250,"Spices"),
-(112, "Saffron", 50, 30, '2023-03-23', 150,"Spices");
+("Apple", 200, 500, '2023-03-23', 150,"fruit"),
+( "orange", 80, 600, '2023-03-30', 50,"fruit"),
+( "Mango", 40, 800, '2023-05-23', 250,"fruit"),
+( "Grapes", 50, 30, '2023-03-23', 150,"fruit"),
+( "Potato", 200, 500, '2023-03-23', 150,"vegitable"),
+( "Carrot", 80, 600, '2023-03-30', 50,"vegitable"),
+( "Lady Finger", 40, 800, '2023-05-23', 250,"vegitable"),
+( "onion", 50, 30, '2023-03-23', 150,"vegitable"),
+("Nutmeg", 200, 500, '2023-03-23', 150,"Spices"),
+("Black Pepper", 80, 600, '2023-03-30', 50,"Spices"),
+("Cardamom", 40, 800, '2023-05-23', 250,"Spices"),
+("Saffron", 50, 30, '2023-03-23', 150,"Spices");
 
 INSERT INTO Customer
 (
@@ -51,16 +51,18 @@ VALUES
     "1993-12-12", 29, "xxxxxxx", "visa card", "sonail_675");
 
 INSERT INTO ORDER_DETAILS
-(ORDER_ID, preferred_login_id, PRODUCT_ID, QUANTITY, TOTAL_PRICE, ORDER_DATE, STATUS, CANCELLATION_DATE, CANCELLATION_REASON)
+(preferred_login_id, PRODUCT_ID, QUANTITY, TOTAL_PRICE, ORDER_DATE, STATUS, CANCELLATION_DATE, CANCELLATION_REASON)
 VALUES 
-(10001,"sonail_675", 101 , 3, 100.00,'2022-10-23',"Confirmed", null, null),
-(10002,"alexa_",106 , 2, 200.00 , '2022-10-20',"Confirmed",null,null),
-(10003,"bob@hmail.com",108,1,300.00, '2022-11-23',"Confirmed", null,null),
-(10004,"loki@hmail.com", 104 , 5, 100.00,'2022-10-23',"Confirmed", null, null),
-(10005,"sonail_675", 103 , 3, 100.00,'2022-10-23',"Confirmed", null, null),
-(10007,"polo90@hmail.com", 112 , 3, 600.00,'2022-10-23',"Confirmed", null, null),
-(10008,"sonail_675", 103 , 1, 200.00,'2022-10-23',"Confirmed", null, null),
-(10009,"alexa_", 102 , 3, 150.00,'2022-10-23',"Confirmed", null, null);
+("sonail_675", 101 , 3, 100.00,'2022-10-23',"Confirmed", null, null),
+("alexa_",106 , 2, 200.00 , '2022-10-20',"Confirmed",null,null),
+("bob@hmail.com",108,1,300.00, '2022-11-23',"Confirmed", null,null),
+("loki@hmail.com", 104 , 5, 100.00,'2022-10-23',"Confirmed", null, null),
+("sonail_675", 103 , 3, 100.00,'2022-10-23',"Confirmed", null, null),
+("polo90@hmail.com", 112 , 3, 600.00,'2022-10-23',"Confirmed", null, null),
+("sonail_675", 103 , 1, 200.00,'2022-10-23',"Confirmed", null, null),
+("alexa_", 102 , 3, 150.00,'2022-10-23',"Confirmed", null, null),
+("alexa_", 109 , 3, 100.00,'2022-10-23',"Confirmed", null, null),
+("alexa_",102 , 4, 200.00 , '2022-10-20',"Confirmed",null,null);
 
 
 UPDATE order_details SET STATUS ="Cancelled",
@@ -71,7 +73,7 @@ WHERE ORDER_ID= 10001;
 
 UPDATE PRODUCT p join order_details o on p.PRODUCT_ID=o.PRODUCT_ID set PRODUCT_COUNT=(p.PRODUCT_COUNT+o.QUANTITY ) where p.PRODUCT_ID=101;
 
-DELETE FROM ORDER_DETAILS where order_id = 10009;
+DELETE FROM ORDER_DETAILS where order_id = 10001;
 DELETE FROM  PRODUCT;
 DELETE FROM CUSTOMER;
 DELETE FROM ORDER_DETAILS;
